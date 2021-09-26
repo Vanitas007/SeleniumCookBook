@@ -1,0 +1,13 @@
+
+
+LoginAutomation
+        https://stackoverflow.com/questions/63102108/driver-geturl-vs-driver-navigate-tourl
+        driver.get(“url”); ładuje strone, ale nie przechowuje historii
+        driver.navigate().to(“url’); ładuje strone i przechowuje historię przeglądarki umożliwiając
+        navigate().forward(), navigate().back(), navigate().refresh()
+
+Ustawiam wiekość okna przeglądarki
+        driver.manage().window().setSize(new Dimension(1920, 1080));
+        driver.manage().window().maximize();
+
+@Before nie działa :/ Testy działają dopiero gdy uruchomienie przeglądarki dobywa sie w @Test
