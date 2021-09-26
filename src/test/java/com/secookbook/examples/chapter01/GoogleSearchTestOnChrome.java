@@ -1,28 +1,31 @@
 package com.secookbook.examples.chapter01;
-import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.junit.After;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.junit.*;
-import static org.junit.Assert.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GoogleSearchTestOnChrome {
     private WebDriver driver;
 
-    @Before
+    @Test
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 // Uruchom Chrome
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
 //Zmaksymalizuj okno przeglądarki
         driver.manage().window().maximize();
 //Przejdź do Google
         driver.get("http://www.google.com");
     }
 
-    @Test
+   // @Test
     public void testGoogleSearch() {
 //Znajdź pole tekstowe za pomocą jego nazwy
         WebElement element = driver.findElement(By.name("q"));
@@ -35,7 +38,7 @@ public class GoogleSearchTestOnChrome {
 // Czekamy na załadowanie się strony. Timeout po 10 sekundach
         new WebDriverWait(driver, 10).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
-                return d.getTitle().toLowerCase()
+               return d.getTitle().toLowerCase()
                         .startsWith("selenium i testowanie aplikacji. receptury");
             }
         });
