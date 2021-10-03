@@ -10,4 +10,28 @@ Ustawiam wiekość okna przeglądarki
         driver.manage().window().setSize(new Dimension(1920, 1080));
         driver.manage().window().maximize();
 
-@Before nie działa :/ Testy działają dopiero gdy uruchomienie przeglądarki dobywa sie w @Test
+
+    driver.navigate().to("http://automationpractice.com/index.php");
+    lub
+    driver.navigate().to(sklepURL);
+        metody .to można używać to string wklepując po prostu link do strony.
+        Można też używać to URL. należy wtedy zrobić zmienną np.
+        URL googleURL = new URL(https://www.google.pl/);
+        i wpisać po prostu ...().to(googleURL);
+        wtedy gdy zmieni się adres strony wystarczy zmienić jedną wartość, a nie w każdym tescie
+        dodatkowo konieczna jest obsługa wyjątku. Na tym przykładzie try/catch
+        zmienna URL wystawiłem na samą góre zeby mogla byc uzywana przez wysztkie testy.
+
+Stworzona zmienna sklepURL zeby nie trzeba bylo wprowadzac linka do kazdego testu z osobna
+automatyczna obsluga wyjatku za pomoca try/catch
+    URL sklepURL;
+    {
+        try {
+            sklepURL = new URL("http://automationpractice.com/index.php");
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+    }
+
+driver.quit(); - zamyka wszytskie procesy przeglądarki ORAZ geckodriver.exe (w menadzerze zakladka szczegoly)
+driver.close(); - zamyka jedynie procesy przegladarki.
