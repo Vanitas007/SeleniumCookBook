@@ -1,4 +1,5 @@
-
+Tworze projekt Maven i cała konfiguracja projekty robi się automatycznie.
+W pliku pom.xml wprowadzam używane w projekcie biblioteki <dependency>.
 
 LoginAutomation
         https://stackoverflow.com/questions/63102108/driver-geturl-vs-driver-navigate-tourl
