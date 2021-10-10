@@ -36,3 +36,31 @@ automatyczna obsluga wyjatku za pomoca try/catch
 
 driver.quit(); - zamyka wszytskie procesy przeglądarki ORAZ geckodriver.exe (w menadzerze zakladka szczegoly)
 driver.close(); - zamyka jedynie procesy przegladarki.
+
+
+https://testelka.pl/selektory-w-selenium-najprostsze-metody/
+Metoda findElement():
+        - Wyszukiwanie elementów w Selenium WebDriver odbywa się za pomocą metod findElement()
+            i findElements() dostarczonych za pośrednictwem interfejsów WebDriver i WebElement.
+        - Metoda findElement() zwraca egzemplarz klasy WebElement, który można znaleźć w modelu DOM
+            strony na podstawie określonych lokalizatorów nazywanych także kryteriami wyszukiwania.
+            Jeśli określona metoda nie zdoła znaleźć elementu przy użyciu określonego kryterium wyszukiwania,
+            zgłasza wyjątek NoSuchElementFoundException.
+        - Metoda findElements() zwraca listę obiektów WebElement spełniających podane kryteria wyszukiwania.
+            Jeśli elementy nie zostaną znalezione, zwraca pustą listę.
+        - Metody find pobierają argument w postaci lokalizatora lub obiektu kwerendy jako egzemplarza
+            klasy By. Selenium WebDriver dostarcza klasę By, która obsługuje różne strategie lokalizacji.
+    Na podstawie:
+    ID -                        driver.findElement(By.id(<ID elementu))
+    Nazwy -                     driver.findElement(By.name(<element name>))
+    Nazwy klasy -               driver.findElement(By.className(<klasa_elementu>))
+    Nazwy znacznika -           driver.findElement(By.tagName(<nazwa_znacznika_html>))
+    Tekstu linka -              driver.findElement(By.linkText(<tekst_linka>))
+    Częściowego tekstu linka -  driver.findElement(By.partialLinkText(<tekst_linka>))
+    CSS -                       driver.findElement(By.cssSelector(<selektor_css>)) - https://testelka.pl/selektory-css/
+    Xpath -                     driver.findElement(By.xpath(<wyrażenie_kwerendy_xpath>))
+
+W niektórych przypadkach nie można użyć atrybutu id z następujących przyczyn:
+     nie wszystkie elementy na stronie mają określony atrybut id;
+     atrybuty id nie są określone dla kluczowych elementów na stronie;
+     wartości atrybutu id są generowane dynamicznie.
