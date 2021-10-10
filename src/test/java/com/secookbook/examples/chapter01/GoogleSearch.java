@@ -34,10 +34,10 @@ public class GoogleSearch {
 
     @Test
     public void testGoogleSearch() {
-        WebElement element = driver.findElement(By.name("q"));
-        element.clear();
-        element.sendKeys("Selenium testing tools cookbook");
-        element.submit();
+        WebElement searchField = driver.findElement(By.name("q"));
+        searchField.clear();
+        searchField.sendKeys("Selenium testing tools cookbook");
+        searchField.submit();
 
         //Przestarzała metoda
 //        new WebDriverWait(driver,10).until(new ExpectedCondition<Boolean>() {
