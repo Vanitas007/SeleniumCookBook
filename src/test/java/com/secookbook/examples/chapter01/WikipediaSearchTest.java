@@ -10,6 +10,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WikipediaSearchTest {
@@ -48,6 +50,20 @@ public class WikipediaSearchTest {
             }
         });
         assertEquals("Szachy – Wikipedia, wolna encyklopedia", driver.getTitle());
+    }
+    @Test
+
+    public void wyswietlanieWszystkichLinkowZeStrony(){
+// Wyszukanie wszystkich linków, które są wyświetlane na stronie
+        List<WebElement> links = driver.findElements(By.tagName("a"));
+
+//Sprawdzenie, czy na stronie jest wyświetlane 316 linków
+        assertEquals(316, links.size());
+
+//Iterowanie po liście linków i wyświetlanie dla każdego z nich adresu docelowego
+        for (WebElement link : links){
+            System.out.println(link.getAttribute("href"));
+        }
     }
 
 }
