@@ -55,4 +55,10 @@ public class GoogleSearch {
 
         assertEquals("Selenium testing tools cookbook - Szukaj w Google", driver.getTitle());
     }
+
+    @Test
+    public void s60wyszukanieLinkuGmaila(){
+        WebElement gmailLink = driver.findElement(By.linkText("Gmail"));
+        assertEquals("https://mail.google.com/mail/&ogbl", gmailLink.getAttribute("href"));
+    }
 }

@@ -70,12 +70,16 @@ driver.findElements(By.tagName("a")); - (https://www.w3schools.com/tags/tag_a.as
         - tag <a> definiuje hiperlinki i jest zazwyczaj połączony z atrybutem href który wskazuje adres
         jeśli <a> nie ma atrybutu href, to jest to tylko placeholder pod hyperlink
 
-Metoda findElements() zwraca w postaci listy obiektów WebElement wszystkie elementy pasujące
-do przekazanych kryteriów wyszukiwania.
+    Metoda findElements() zwraca w postaci listy obiektów WebElement wszystkie elementy pasujące
+    do przekazanych kryteriów wyszukiwania.
             List<WebElement> links = driver.findElements(By.tagName("a"));
-Metoda size() typu List pozwala stwierdzić, ile elementów jest na liście.
+    Metoda size() typu List pozwala stwierdzić, ile elementów jest na liście.
             assertEquals(4, links.size());
-Po tej liście można iterować, wyświetlając dla każdego linka adres docelowy.
+    Po tej liście można iterować, wyświetlając dla każdego linka adres docelowy.
             for(WebElement link : links) {
             System.out.println(link.GetAttribute("href"));
             }
+
+
+driver.findElement(By.linkText(<tekst_linka>)) - s60
+        - Metoda przydatna do wyszukiwania linkow z dynamicznym tekstem na podstawie wyświetlanego tekstu
