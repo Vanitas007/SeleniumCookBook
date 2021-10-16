@@ -64,3 +64,18 @@ W niektórych przypadkach nie można użyć atrybutu id z następujących przycz
      nie wszystkie elementy na stronie mają określony atrybut id;
      atrybuty id nie są określone dla kluczowych elementów na stronie;
      wartości atrybutu id są generowane dynamicznie.
+
+
+driver.findElements(By.tagName("a")); - (https://www.w3schools.com/tags/tag_a.asp)
+        - tag <a> definiuje hiperlinki i jest zazwyczaj połączony z atrybutem href który wskazuje adres
+        jeśli <a> nie ma atrybutu href, to jest to tylko placeholder pod hyperlink
+
+Metoda findElements() zwraca w postaci listy obiektów WebElement wszystkie elementy pasujące
+do przekazanych kryteriów wyszukiwania.
+            List<WebElement> links = driver.findElements(By.tagName("a"));
+Metoda size() typu List pozwala stwierdzić, ile elementów jest na liście.
+            assertEquals(4, links.size());
+Po tej liście można iterować, wyświetlając dla każdego linka adres docelowy.
+            for(WebElement link : links) {
+            System.out.println(link.GetAttribute("href"));
+            }
