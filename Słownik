@@ -83,3 +83,17 @@ driver.findElements(By.tagName("a")); - (https://www.w3schools.com/tags/tag_a.as
 
 driver.findElement(By.linkText(<tekst_linka>)) - s60
         - Metoda przydatna do wyszukiwania linkow z dynamicznym tekstem na podstawie wyświetlanego tekstu
+
+WebElement loginButton = driver.findElement(By.tagName("button"));
+loginButton.click();
+        - Załóżmy, że na stronie jest jeden przycisk. Ten przycisk można zlokalizować na podstawie jego
+          znacznika w następujący sposób.
+WebElement table = driver.findElement(By.id("summaryTable"));
+List<WebElement> rows = table.findElements(By.tagName("tr"));
+assertEquals(10, rows.size());
+        - chcemy policzyć, ile wierszy jest wyświetlanych w elemencie
+          <table>. Można to zrobić w następujący sposób.
+
+
+          https://testelka.pl/xpath/
+          https://testelka.pl/download/CheatSheet.pdf
