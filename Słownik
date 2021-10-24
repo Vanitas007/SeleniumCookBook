@@ -97,3 +97,12 @@ assertEquals(10, rows.size());
 
           https://testelka.pl/xpath/
           https://testelka.pl/download/CheatSheet.pdf
+
+s82 Automatyzowanie pól tekstowych, obszarów tekstowych i przycisków
+    element.clear();            - usuwanie istniejącej wartości tekstowej.
+    element.sendKeys("Szachy"); - Wprowadzanie wartości tekstowej. (symuluje klawiature. można nacisnąć TAB)
+                                    element.sendKeys ("123" + Keys.TAB);
+                                    Pełna lista przycisków
+                                    https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/Keys.html
+    element.submit();           - przesyłanie formularza
+    element.click();            - kliknięcie przycisku
