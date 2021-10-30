@@ -12,8 +12,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
-public abstract class AutomationPracticeCom {
+public class AutomationPracticeCom {
 
     private WebDriver driver;
 
@@ -44,11 +45,13 @@ public abstract class AutomationPracticeCom {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a")));
         WebElement dressesButton = driver.findElement(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a"));
         dressesButton.click();
+
+// Robie z menu rozwijanego obiekt Select na podstawie Xpatcha
+        Select productSort = new Select(driver.findElement(By.id("selectProductSort")));
+// Sprawdzam czy menu rozwijane obsługuje wybór wielokrotny
+        assertFalse(productSort.isMultiple());
+// Sprawdzam czy menu rozwijane ma 4 opcje wyboru
+        assertEquals(8,productSort.getOptions().size());
     }
-
-    org.openqa.selenium.support.ui.Select productSort = new Select(driver.findElement(By.id("selectProductSort")));
-
-    assertFalse(productSort.isMultiple());
-
-
+    
 }

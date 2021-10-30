@@ -106,3 +106,7 @@ s82 Automatyzowanie pól tekstowych, obszarów tekstowych i przycisków
                                     https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/Keys.html
     element.submit();           - przesyłanie formularza
     element.click();            - kliknięcie przycisku
+
+
+https://testelka.pl/implicit-oraz-explicit-wait/
+    Explicit Wait
