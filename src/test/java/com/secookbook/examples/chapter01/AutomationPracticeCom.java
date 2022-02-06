@@ -53,5 +53,5 @@ public class AutomationPracticeCom {
 // Sprawdzam czy menu rozwijane ma 4 opcje wyboru
         assertEquals(8,productSort.getOptions().size());
     }
-    
+
 }
