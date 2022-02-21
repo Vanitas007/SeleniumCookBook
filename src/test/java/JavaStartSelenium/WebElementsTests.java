@@ -143,4 +143,50 @@ public class WebElementsTests {
         sleep();
         assertEquals(namesOfOptions, expectedNamesOfOptions);
     }
+
+    @Test
+    public void selectingOptionsFromDropDownTest(){
+        WebElement countryWebElement = driver.findElement(By.id("country"));
+        Select countryDropDown = new Select(countryWebElement);
+        sleep();
+        countryDropDown.selectByIndex(1);
+        sleep();
+        assertEquals(countryDropDown.getFirstSelectedOption().getText(), "Poland");
+        countryDropDown.selectByValue("de_DE");
+        sleep();
+        assertEquals(countryDropDown.getFirstSelectedOption().getText(),"Germany");
+        countryDropDown.selectByVisibleText("UK");
+        sleep();
+        assertEquals(countryDropDown.getFirstSelectedOption().getText(), "UK");
+/** Zaleca się stosowanie selectByValue(). Jeśli nie ma atrybutu value w kontorlce to programista niech doda
+ * a jeśli nie to używam selectByVisibleText()
+ *
+ * selectByIndex() jest słabe, bo liczba pozycji w kontrolce może się zmieniać/zmieniać kolejność po wybraniu*/
+    }
+
+    @Test
+    public void checkIfElementsOnPageTest(){
+        WebElement usernameField = driver.findElement(By.id("username"));
+        WebElement passwordField = driver.findElement(By.id("password"));
+        WebElement emailLabel = driver.findElement(By.cssSelector("span[class=\"help-block\"]"));
+
+        System.out.println("Is usernameField displayed: " + usernameField.isDisplayed());
+        System.out.println("Is usernameField enabled: " + usernameField.isEnabled());
+
+        System.out.println("Is passwordField displayed: " + passwordField.isDisplayed());
+        System.out.println("Is passwordField enabled: " + passwordField.isEnabled());
+
+        System.out.println("Is emailLabel displayed: " + emailLabel.isDisplayed());
+        System.out.println("Is emailLabel enabled: " + emailLabel.isEnabled());
+
+        assertTrue(usernameField.isDisplayed());
+        assertTrue(passwordField.isDisplayed());
+        assertTrue(emailLabel.isDisplayed());
+/** Metoda isEnabled() zwraca fałsz tylko dla pól typu input z atrybutem disabled!
+ * Dlatego należy ją stosować tylko dla pól typu input. */
+        assertTrue(usernameField.isEnabled());
+        assertFalse(passwordField.isEnabled());
+    }
+
+
 }
