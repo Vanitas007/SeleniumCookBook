@@ -3,4 +3,6 @@ Przerabianie materiału z książki "Selenium Testing Tools Cookbook - Second Ed
 
 aka "Selenium i testowanie aplikacji Receptury. Wydanie II" by Unmesh Gundecha.
 
-Z zastosowaniem aktualnych technik.
+Z zastosowaniem "aktualnych technik".
+
+JavaStart selenium tutorial.
