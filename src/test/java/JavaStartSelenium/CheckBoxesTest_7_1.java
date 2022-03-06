@@ -15,7 +15,7 @@ import static org.testng.Assert.assertTrue;
  * Zadanie 7.1. Od strzała zrobione
  */
 
-public class CheckBoxesTests71 {
+public class CheckBoxesTest_7_1 {
 
     private WebDriver driver;
 
