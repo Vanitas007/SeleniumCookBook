@@ -15,7 +15,7 @@ import static org.testng.AssertJUnit.assertEquals;
  * Zadanie 7.1. lipa
  */
 
-public class DropDownTests72 {
+public class DropDownTests_7_2 {
 
     private WebDriver driver;
 
