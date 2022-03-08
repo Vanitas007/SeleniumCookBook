@@ -9,6 +9,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
+
+/** LIPA */
+
 public class HoverTests_7_4 {
 
     private WebDriver driver;
@@ -28,11 +32,31 @@ public class HoverTests_7_4 {
 
     @Test
     public void hoverTest() {
-        WebElement userOneAvatar = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[1]/img"));
-        Actions akcja = new Actions(driver);
+        WebElement userOneAvatar = driver.findElement(By.xpath("//*[@id='content']/div/div[1]"));
+        WebElement userTwoAvatar = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/img"));
+        WebElement userThreeAvatar = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[3]/img"));
 
+        Actions action = new Actions(driver);
+        action.moveToElement(userOneAvatar).perform();
 
+        WebElement userOneCaption = driver.findElement(By.xpath("//div[1]/div/h5"));
+        WebElement userTwoCaption = driver.findElement(By.xpath("//div[2]/div/h5"));
+        WebElement userThreeCaption = driver.findElement(By.xpath("//div[3]/div/h5"));
 
+        assertEquals(userOneCaption.getText(), "name: user1");
+        assertEquals(userTwoCaption.getText(), "");
+        assertEquals(userThreeCaption.getText(), "");
 
+        action.moveToElement(userTwoAvatar).perform();
+
+        assertEquals(userOneCaption.getText(), "");
+        assertEquals(userTwoCaption.getText(), "name: user2");
+        assertEquals(userThreeCaption.getText(), "");
+
+        action.moveToElement(userThreeAvatar).perform();
+
+        assertEquals(userOneCaption.getText(), "");
+        assertEquals(userTwoCaption.getText(), "");
+        assertEquals(userThreeCaption.getText(), "name: user3");
     }
 }
