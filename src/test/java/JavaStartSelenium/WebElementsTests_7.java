@@ -17,7 +17,7 @@ import static org.testng.Assert.*;
 
 /** Temat 7 Metoda sendKeys() oraz getAttribute() */
 
-public class WebElementsTests {
+public class WebElementsTests_7 {
 
     private WebDriver driver;
 
