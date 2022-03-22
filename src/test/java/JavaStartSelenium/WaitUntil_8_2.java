@@ -25,4 +25,9 @@ public class WaitUntil_8_2 {
     public void waitUntilElementIsInvisible(WebElement checkboxBeforeClick) {
         webDriverWait.until(ExpectedConditions.invisibilityOf(checkboxBeforeClick));
     }
+
+    //Własnej roboty pod Zadanie_8_3
+    public WebElement waitUntilVisibilityOfElementLocated(By by){
+        return webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(by));
+    }
 }
