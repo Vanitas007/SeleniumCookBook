@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertTrue;
 
 /** Temat 9 - Wstęo oraz pierwszy test
  *
@@ -56,5 +57,29 @@ public class FailedLoginTests_9 {
         WebElement messageLabel = driver.findElement(By.cssSelector("#Content ul[class='messages'] li"));
 
         assertEquals(messageLabel.getText(), "Invalid username or password. Signon failed.");
+    }
+
+    @Test
+    public void asUserLoginUsingValidLoginAndPassword() {
+        WebElement enterStoreLink = driver.findElement(By.cssSelector("#Content a"));
+        enterStoreLink.click();
+
+        WebElement signOnLink = driver.findElement(By.cssSelector("#MenuContent a[href*='signonForm']"));
+        signOnLink.click();
+
+        WebElement usernameField = driver.findElement(By.name("username"));
+        usernameField.clear();
+        usernameField.sendKeys("j2ee");
+
+        WebElement passwordField = driver.findElement(By.name("password"));
+        passwordField.clear();
+        passwordField.sendKeys("j2ee");
+
+        WebElement signOnButton = driver.findElement(By.name("signon"));
+        signOnButton.click();
+
+        WebElement bannerAfterLoginLogo = driver.findElement(By.cssSelector("#Banner img[src*='dog']"));
+        assertTrue(bannerAfterLoginLogo.isDisplayed());
+
     }
 }
