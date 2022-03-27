@@ -20,6 +20,8 @@ import static org.testng.AssertJUnit.assertTrue;
 public class FailedLoginTests_9 {
 
     private WebDriver driver;
+//    private LandingPage_9 landingPage_9;
+
 
     @BeforeMethod
     public void beforeTest() {
@@ -36,27 +38,21 @@ public class FailedLoginTests_9 {
     }
 
     @Test
-    public void asUserTryToLogInWithIncorrectLoginAndPassword(){
-        WebElement enterStoreLink = driver.findElement(By.cssSelector("#Content a"));
-        enterStoreLink.click();
-//  https://www.w3schools.com/cssref/css_selectors.asp
-//  #firstname 	Selects the element with id="firstname"
-// 	a[href*="w3schools"] 	Selects every <a> element whose href attribute value contains the substring "w3schools"
-        WebElement signOnLink = driver.findElement(By.cssSelector("#MenuContent a[href*='signonForm']"));
-        signOnLink.click();
+    public void asUserTryToLogInWithIncorrectLoginAndPassword() {
+        LandingPage_9 landingPage_9 = new LandingPage_9(driver);
+        landingPage_9.clickOnEnterStoreLink();
 
-        WebElement usernameField = driver.findElement(By.name("username"));
-        usernameField.sendKeys("NotExistingLogin");
+        TopMenuPage_9 topMenuPage_9 = new TopMenuPage_9(driver);
+        topMenuPage_9.clickOnSignInLink();
 
-        WebElement passwordField = driver.findElement(By.name("password"));
-        passwordField.sendKeys("NotProperPassword");
+        LoginPage_9 loginPage_9 = new LoginPage_9(driver);
+        loginPage_9.typeIntoUserNameField("NotExistingLogin");
+        loginPage_9.typeIntoPasswordField("NotProperPassword");
+        loginPage_9.clickOnLoginButton();
+        String warningMessage = loginPage_9.getWarningMessage();
 
-        WebElement signOnButton = driver.findElement(By.name("signon"));
-        signOnButton.click();
-
-        WebElement messageLabel = driver.findElement(By.cssSelector("#Content ul[class='messages'] li"));
-
-        assertEquals(messageLabel.getText(), "Invalid username or password. Signon failed.");
+        assertEquals(warningMessage, "Invalid username or password. Signon failed.");
+//  ???      assertEquals(loginPage_9.getWarningMessage(), "Invalid username or password. Signon failed.");
     }
 
     @Test
@@ -80,6 +76,8 @@ public class FailedLoginTests_9 {
 
         WebElement bannerAfterLoginLogo = driver.findElement(By.cssSelector("#Banner img[src*='dog']"));
         assertTrue(bannerAfterLoginLogo.isDisplayed());
-
     }
 }
+//  https://www.w3schools.com/cssref/css_selectors.asp
+//  #firstname 	Selects the element with id="firstname"
+// 	a[href*="w3schools"] 	Selects every <a> element whose href attribute value contains the substring "w3schools"
