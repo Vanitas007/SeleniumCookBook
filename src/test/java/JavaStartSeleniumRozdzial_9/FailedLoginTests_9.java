@@ -39,23 +39,24 @@ public class FailedLoginTests_9 {
 
     @Test
     public void asUserTryToLogInWithIncorrectLoginAndPassword() {
-        LandingPage_9 landingPage_9 = new LandingPage_9(driver);
-        landingPage_9.clickOnEnterStoreLink();
 
-        TopMenuPage_9 topMenuPage_9 = new TopMenuPage_9(driver);
-        topMenuPage_9.clickOnSignInLink();
+        LandingPage landingPage = new LandingPage(driver);
+        landingPage.clickOnEnterStoreLink();
 
-        LoginPage_9 loginPage_9 = new LoginPage_9(driver);
-        loginPage_9.typeIntoUserNameField("NotExistingLogin");
-        loginPage_9.typeIntoPasswordField("NotProperPassword");
-        loginPage_9.clickOnLoginButton();
-        String warningMessage = loginPage_9.getWarningMessage();
+        TopMenuPage topMenuPage = new TopMenuPage(driver);
+        topMenuPage.clickOnSignInLink();
+
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.typeIntoUserNameField("NotExistingLogin");
+        loginPage.typeIntoPasswordField("NotProperPassword");
+        loginPage.clickOnLoginButton();
+        String warningMessage = loginPage.getWarningMessage();
 
         assertEquals(warningMessage, "Invalid username or password. Signon failed.");
-//  ???      assertEquals(loginPage_9.getWarningMessage(), "Invalid username or password. Signon failed.");
     }
 
     @Test
+    /** pierwotny test analogiczny do tego co wyżej przed refaktoryzacją xD */
     public void asUserLoginUsingValidLoginAndPassword() {
         WebElement enterStoreLink = driver.findElement(By.cssSelector("#Content a"));
         enterStoreLink.click();
