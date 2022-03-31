@@ -1,61 +1,18 @@
-package JavaStartSeleniumRozdzial_9;
+package JavaStartSeleniumRozdzial_9.tests;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import JavaStartSeleniumRozdzial_9.page.objects.FooterPage;
+import JavaStartSeleniumRozdzial_9.page.objects.LandingPage;
+import JavaStartSeleniumRozdzial_9.page.objects.LoginPage;
+import JavaStartSeleniumRozdzial_9.page.objects.TopMenuPage;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+import static org.testng.Assert.assertTrue;
 
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertTrue;
-
-/**
- * Temat 9 - Wstęp oraz pierwszy test
- * <p>
- * Trzeba ogarniać selektory CSS. Szczególnie ten z assercji.
- */
-
-public class FailedLoginTests_9 {
-
-    private WebDriver driver;
-//    private LandingPage_9 landingPage_9;
-
-
-    @BeforeMethod
-    public void beforeTest() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.navigate().to("http://przyklady.javastart.pl/jpetstore/");
-    }
-
-    @AfterMethod
-    public void afterTest() {
-        driver.close();
-        driver.quit();
-    }
-
-    @Test
-    public void asUserTryToLogInWithIncorrectLoginAndPassword() {
-        LandingPage landingPage = new LandingPage(driver);
-        landingPage.clickOnEnterStoreLink();
-
-        TopMenuPage topMenuPage = new TopMenuPage(driver);
-        topMenuPage.clickOnSignInLink();
-
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.typeIntoUserNameField("NotExistingLogin");
-        loginPage.typeIntoPasswordField("NotProperPassword");
-        loginPage.clickOnLoginButton();
-        String warningMessage = loginPage.getWarningMessage();
-
-        assertEquals(warningMessage, "Invalid username or password. Signon failed.");
-    }
+public class PositiveLoginTests extends TestBase {
 
     @Test
     public void asUserLoginUsingValidLoginAndPassword() {
+
         LandingPage landingPage = new LandingPage(driver);
         landingPage.clickOnEnterStoreLink();
 
@@ -66,9 +23,7 @@ public class FailedLoginTests_9 {
         loginPage.typeIntoUserNameField("j2ee");
         loginPage.typeIntoPasswordField("j2ee");
         loginPage.clickOnLoginButton();
-
         FooterPage footerPage = new FooterPage(driver);
-        footerPage.isBannerAfterLoginDisplayed();
 
         assertTrue(footerPage.isBannerAfterLoginDisplayed());
     }

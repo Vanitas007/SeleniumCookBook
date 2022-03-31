@@ -1,4 +1,4 @@
-package JavaStartSeleniumRozdzial_9;
+package JavaStartSeleniumRozdzial_9.page.objects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
