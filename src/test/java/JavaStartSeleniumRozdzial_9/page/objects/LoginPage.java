@@ -19,26 +19,36 @@ public class LoginPage {
     @FindBy(css = "#Content ul[class='messages'] li")
     private WebElement messageLabel;
 
+    @FindBy(css = "area[alt='Fish']")
+    private WebElement btnFishImage;
+
     private WebDriver driver;
 
-    public LoginPage(WebDriver driver){
-        this.driver=driver;
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    public void typeIntoUserNameField(String username){
+    public void typeIntoUserNameField(String username) {
         usernameField.clear();
         usernameField.sendKeys(username);
     }
-    public void typeIntoPasswordField(String password){
+
+    public void typeIntoPasswordField(String password) {
         passwordField.clear();
         passwordField.sendKeys(password);
     }
-    public void clickOnLoginButton(){
+
+    public void clickOnLoginButton() {
         signOnButton.click();
     }
-    public String getWarningMessage(){
+
+    public String getWarningMessage() {
         String warningText = messageLabel.getText();
         return warningText;
+    }
+
+    public void clickOnFishImageButton() {
+        btnFishImage.click();
     }
 }
