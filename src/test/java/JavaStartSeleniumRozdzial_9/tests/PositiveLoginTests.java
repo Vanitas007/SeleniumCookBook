@@ -29,7 +29,9 @@ public class PositiveLoginTests extends TestBase {
     }
 }
 
-/** pierwotny test analogiczny do tego co wyżej przed refaktoryzacją xD */
+/**
+ * pierwotny test analogiczny do tego co wyżej przed refaktoryzacją xD
+ */
 //    @Test
 //    public void asUserLoginUsingValidLoginAndPassword() {
 //        WebElement enterStoreLink = driver.findElement(By.cssSelector("#Content a"));

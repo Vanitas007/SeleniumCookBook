@@ -1,7 +1,7 @@
 package JavaStartSeleniumRozdzial_9.tests;
 
-import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
-import JavaStartSeleniumRozdzial_9.driver.manager.DriverUtils;
+import JavaStartSeleniumRozdzial_9.driver.DriverManager;
+import JavaStartSeleniumRozdzial_9.driver.DriverUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 

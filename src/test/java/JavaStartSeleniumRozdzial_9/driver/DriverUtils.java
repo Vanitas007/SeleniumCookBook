@@ -1,4 +1,4 @@
-package JavaStartSeleniumRozdzial_9.driver.manager;
+package JavaStartSeleniumRozdzial_9.driver;
 
 
 public class DriverUtils {

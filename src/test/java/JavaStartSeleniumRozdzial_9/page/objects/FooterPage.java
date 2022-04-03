@@ -1,6 +1,6 @@
 package JavaStartSeleniumRozdzial_9.page.objects;
 
-import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
+import JavaStartSeleniumRozdzial_9.driver.DriverManager;
 import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,8 +18,8 @@ public class FooterPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public boolean isBannerAfterLoginDisplayed(){
-        WaitForElement.waitUntilEmenentsVisable(bannerAfterLoginLogo);
+    public boolean isBannerAfterLoginDisplayed() {
+        WaitForElement.waitUntilElementIsVisible(bannerAfterLoginLogo);
         boolean isDisplayed = bannerAfterLoginLogo.isDisplayed();
         return isDisplayed;
     }
