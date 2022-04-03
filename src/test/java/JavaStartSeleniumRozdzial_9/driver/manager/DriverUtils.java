@@ -1,12 +1,9 @@
 package JavaStartSeleniumRozdzial_9.driver.manager;
 
-import java.time.Duration;
-
 
 public class DriverUtils {
 
     public static void setInitialConfiguration() {
-        DriverManager.getWebDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         DriverManager.getWebDriver().manage().window().maximize();
     }
 
