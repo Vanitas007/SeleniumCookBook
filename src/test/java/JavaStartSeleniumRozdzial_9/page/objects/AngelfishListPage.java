@@ -1,5 +1,6 @@
 package JavaStartSeleniumRozdzial_9.page.objects;
 
+import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,9 +16,8 @@ public class AngelfishListPage {
     @FindBy(css = "a.Button[href$=\"EST-2\"]")
     private WebElement addToCardSmallAngelfishButton;
 
-    public AngelfishListPage(WebDriver driver){
-        this.driver=driver;
-        PageFactory.initElements(driver, this);
+    public AngelfishListPage(){
+        PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
     public void clickOnAddToCardLargeAngelfish(){
