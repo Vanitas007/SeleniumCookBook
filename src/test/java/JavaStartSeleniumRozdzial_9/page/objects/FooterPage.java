@@ -2,17 +2,18 @@ package JavaStartSeleniumRozdzial_9.page.objects;
 
 import JavaStartSeleniumRozdzial_9.driver.DriverManager;
 import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
-import org.openqa.selenium.WebDriver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class FooterPage {
 
+    Logger logger = LogManager.getRootLogger();
+
     @FindBy(css = "#Banner img[src*='dog']")
     private WebElement bannerAfterLoginLogo;
-
-    private WebDriver driver;
 
     public FooterPage() {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
@@ -21,6 +22,7 @@ public class FooterPage {
     public boolean isBannerAfterLoginDisplayed() {
         WaitForElement.waitUntilElementIsVisible(bannerAfterLoginLogo);
         boolean isDisplayed = bannerAfterLoginLogo.isDisplayed();
+        logger.info("Returning status of banner after login: {}", isDisplayed);
         return isDisplayed;
     }
 
