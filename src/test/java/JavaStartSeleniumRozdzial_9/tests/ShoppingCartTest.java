@@ -14,20 +14,14 @@ public class ShoppingCartTest extends TestBase {
         landingPage.clickOnEnterStoreLink();
 
         AnimalsCategoryPage animalsCategoryPage = new AnimalsCategoryPage();
-        animalsCategoryPage.clickOnFishCategory();
-
-        FishListPage fishCategoryPage = new FishListPage();
-        fishCategoryPage.clickOnAngelfishIdButton();
-
-        AngelfishListPage angelfishListPage = new AngelfishListPage();
-        angelfishListPage.clickOnAddToCardLargeAngelfish();
-
-        ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
-        shoppingCartPage.clickOnProceedToCheckout();
+        animalsCategoryPage
+                .clickOnFishCategory()
+                .clickOnAngelfishIdButton()
+                .clickOnAddToCardLargeAngelfish()
+                .clickOnProceedToCheckout();
 
         LoginPage loginPage = new LoginPage();
         String warningMessage = loginPage.getWarningMessage();
         assertEquals(warningMessage, "You must sign on before attempting to check out. Please sign on and try checking out again.");
-
     }
 }
