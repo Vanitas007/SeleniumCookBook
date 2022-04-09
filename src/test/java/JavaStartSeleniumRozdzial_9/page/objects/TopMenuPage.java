@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class TopMenuPage {
 
-    Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getRootLogger();
 
     @FindBy(css = "#MenuContent a[href*='signonForm']")
     private WebElement signOnLink;
@@ -19,12 +19,10 @@ public class TopMenuPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    //  https://www.w3schools.com/cssref/css_selectors.asp
-//  #firstname 	Selects the element with id="firstname"
-// 	a[href*="w3schools"] 	Selects every <a> element whose href attribute value contains the substring "w3schools"
-    public void clickOnSignInLink() {
-        WaitForElement.waitUntilElementsClicable(signOnLink);
+    public LoginPage clickOnSignInLink() {
+        WaitForElement.waitUntilElementIsClickable(signOnLink);
         signOnLink.click();
         logger.info("Clicked on Sign on Link");
+        return new LoginPage();
     }
 }

@@ -1,10 +1,11 @@
 package com.secookbook.examples.chapter01;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -19,7 +20,7 @@ public class RunWebside {
     public RunWebside() throws MalformedURLException {
     }
 
-    @BeforeEach
+    @BeforeMethod
     //przed każdym testem uruchamiany jest sterownik, przeglądarka i jest ona maksymalizowana
     public void driverSetup() {
         System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
@@ -27,7 +28,7 @@ public class RunWebside {
         driver.manage().window().maximize();
     }
 
-    @AfterEach
+    @AfterMethod
     // po każdym teście przeglądarka jest zamykana
     public void driverQuit() {
         driver.quit();

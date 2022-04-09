@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class FooterPage {
 
-    Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getRootLogger();
 
     @FindBy(css = "#Banner img[src*='dog']")
     private WebElement bannerAfterLoginLogo;
@@ -25,5 +25,4 @@ public class FooterPage {
         logger.info("Returning status of banner after login: {}", isDisplayed);
         return isDisplayed;
     }
-
 }

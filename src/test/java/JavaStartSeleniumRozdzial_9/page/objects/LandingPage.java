@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LandingPage {
 
-    Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getRootLogger();
 
     @FindBy(css = "#Content a")
     private WebElement enterStoreLink;
@@ -19,9 +19,10 @@ public class LandingPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnEnterStoreLink() {
-        WaitForElement.waitUntilElementsClicable(enterStoreLink);
+    public TopMenuPage clickOnEnterStoreLink() {
+        WaitForElement.waitUntilElementIsClickable(enterStoreLink);
         enterStoreLink.click();
         logger.info("Clicked on Enter Store link");
+        return new TopMenuPage();
     }
 }

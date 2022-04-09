@@ -4,7 +4,6 @@ import JavaStartSeleniumRozdzial_9.driver.DriverManager;
 import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -28,28 +27,28 @@ public class LoginPage {
     @FindBy(css = "area[alt='Fish']")
     private WebElement btnFishImage;
 
-    private WebDriver driver;
-
     public LoginPage() {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void typeIntoUserNameField(String username) {
+    public LoginPage typeIntoUserNameField(String username) {
         WaitForElement.waitUntilElementIsVisible(usernameField);
-        usernameField.clear();
         usernameField.sendKeys(username);
-        logger.info("Typed into User Name Field {}");
+        logger.info("Typed into User Name Field {}", username);
+        return this;
     }
 
-    public void typeIntoPasswordField(String password) {
+    public LoginPage typeIntoPasswordField(String password) {
         passwordField.clear();
         passwordField.sendKeys(password);
-        logger.info("Typed into User Password Field {}");
+        logger.info("Typed into Password Field {}", password);
+        return this;
     }
 
-    public void clickOnLoginButton() {
+    public FooterPage clickOnLoginButton() {
         signOnButton.click();
-        logger.info("Clicked on Login button");
+        logger.info("Clicked on Login Button");
+        return new FooterPage();
     }
 
     public String getWarningMessage() {
@@ -58,5 +57,4 @@ public class LoginPage {
         logger.info("Returned warning message was: {}", warningText);
         return warningText;
     }
-
 }
