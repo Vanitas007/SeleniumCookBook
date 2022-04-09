@@ -1,24 +1,24 @@
 package com.secookbook.examples.chapter01;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertFalse;
+
 
 public class AutomationPracticeCom {
 
     private WebDriver driver;
 
-    @BeforeEach
+    @BeforeMethod
     public void setDriver() {
         System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
         driver = new FirefoxDriver();
@@ -26,7 +26,7 @@ public class AutomationPracticeCom {
         driver.get("http://automationpractice.com/index.php");
     }
 
-    @AfterEach
+    @AfterMethod
     public void tearDown() {
         driver.quit();
     }
@@ -40,9 +40,9 @@ public class AutomationPracticeCom {
 
     @Test
     public void s87automatyzowanieRozwijanychMenuIList() throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+//        WebDriverWait wait = new WebDriverWait(driver, );
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a")));
+//        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a")));
         WebElement dressesButton = driver.findElement(By.xpath("/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/a"));
         dressesButton.click();
 
