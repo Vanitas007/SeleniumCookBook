@@ -1,6 +1,7 @@
 package JavaStartSeleniumRozdzial_9.page.objects;
 
 import JavaStartSeleniumRozdzial_9.driver.DriverManager;
+import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -31,27 +32,33 @@ public class AnimalsCategoryPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnFishCategory() {
+    public FishListPage clickOnFishCategory() {
+        WaitForElement.waitUntilElementIsClickable(fishButton);
         fishButton.click();
         logger.info("Clicked on Fish button");
+        return new FishListPage();
     }
 
     public void clickOnDogsCategory() {
+        WaitForElement.waitUntilElementIsClickable(dogsButton);
         dogsButton.click();
         logger.info("Clicked on Dogs button");
     }
 
     public void clickOnCatsCategory() {
+        WaitForElement.waitUntilElementIsClickable(catsButton);
         catsButton.click();
         logger.info("Clicked on Cats button");
     }
 
     public void clickOnReptiliesCategory() {
+        WaitForElement.waitUntilElementIsClickable(reptiliesButton);
         reptiliesButton.click();
         logger.info("Clicked on Reptilies button");
     }
 
     public void clickOnBirdsCategory() {
+        WaitForElement.waitUntilElementIsClickable(birdsButton);
         birdsButton.click();
         logger.info("Clicked on Birds button");
     }

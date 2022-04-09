@@ -1,6 +1,7 @@
 package JavaStartSeleniumRozdzial_9.page.objects;
 
 import JavaStartSeleniumRozdzial_9.driver.DriverManager;
+import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -21,12 +22,15 @@ public class AngelfishListPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnAddToCardLargeAngelfish() {
+    public ShoppingCartPage clickOnAddToCardLargeAngelfish() {
+        WaitForElement.waitUntilElementIsVisible(addToCardLargeAngelfishButton);
         addToCardLargeAngelfishButton.click();
         logger.info("Clicked on add to card large Angelfish button");
+        return new ShoppingCartPage();
     }
 
     public void clickOnAddToCardSmallAngelfish() {
+        WaitForElement.waitUntilElementIsVisible(addToCardSmallAngelfishButton);
         addToCardSmallAngelfishButton.click();
         logger.info("Clicked on add to card small Angelfish button");
     }

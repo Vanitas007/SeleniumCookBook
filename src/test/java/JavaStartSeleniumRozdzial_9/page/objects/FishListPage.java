@@ -1,6 +1,7 @@
 package JavaStartSeleniumRozdzial_9.page.objects;
 
 import JavaStartSeleniumRozdzial_9.driver.DriverManager;
+import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -28,22 +29,27 @@ public class FishListPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnAngelfishIdButton() {
+    public AngelfishListPage clickOnAngelfishIdButton() {
+        WaitForElement.waitUntilElementIsVisible(angelfishIdButton);
         angelfishIdButton.click();
         logger.info("Clicked AngelfishID button");
+        return new AngelfishListPage();
     }
 
     public void clickOnTigerSharkIdButton() {
+        WaitForElement.waitUntilElementIsClickable(tigerSharkIdButton);
         tigerSharkIdButton.click();
         logger.info("Clicked on TigerSharkID button");
     }
 
     public void clickOnKoiIdButtonIdButton() {
+        WaitForElement.waitUntilElementIsClickable(koiIdButton);
         koiIdButton.click();
         logger.info("Clicked on KoiID button");
     }
 
     public void clickOnGoldfishIdButton() {
+        WaitForElement.waitUntilElementIsClickable(goldfishIdButton);
         goldfishIdButton.click();
         logger.info("Clicked on GoldfishID button");
     }
