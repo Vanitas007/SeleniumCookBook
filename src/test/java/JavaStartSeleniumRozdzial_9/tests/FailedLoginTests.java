@@ -1,15 +1,19 @@
 package JavaStartSeleniumRozdzial_9.tests;
 
+import JavaStartSeleniumRozdzial_9.driver.DriverUtils;
 import JavaStartSeleniumRozdzial_9.page.objects.LandingPage;
 import JavaStartSeleniumRozdzial_9.page.objects.LoginPage;
 import org.testng.annotations.Test;
 
+import static JavaStartSeleniumRozdzial_9.navigation.ApplicationURLs.LOGIN_URL;
 import static org.testng.AssertJUnit.assertEquals;
 
 public class FailedLoginTests extends TestBase {
 
     @Test
     public void asUserTryToLogInWithIncorrectLoginAndPassword() {
+        DriverUtils.navigateToPage(LOGIN_URL);
+
         LandingPage landingPage = new LandingPage();
         landingPage
                 .clickOnEnterStoreLink()
