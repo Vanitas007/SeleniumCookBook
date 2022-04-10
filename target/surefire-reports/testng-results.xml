@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-10T14:02:30 CEST" name="Surefire suite" finished-at="2022-04-10T14:02:51 CEST" duration-ms="21224">
+    <groups>
+    </groups>
+    <test started-at="2022-04-10T14:02:30 CEST" name="Surefire test" finished-at="2022-04-10T14:02:51 CEST" duration-ms="21224">
+      <class name="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1fe20588]" started-at="2022-04-10T14:02:46 CEST" name="beforeTest" finished-at="2022-04-10T14:02:47 CEST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1fe20588]" started-at="2022-04-10T14:02:47 CEST" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-04-10T14:02:48 CEST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1fe20588]" started-at="2022-04-10T14:02:48 CEST" name="afterTest" finished-at="2022-04-10T14:02:48 CEST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSeleniumRozdzial_9.tests.FailedLoginTests -->
+      <class name="JavaStartSelenium.SecondAutomatedTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSelenium.SecondAutomatedTest@15b204a1]" started-at="2022-04-10T14:02:45 CEST" name="beforeTest" finished-at="2022-04-10T14:02:45 CEST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="mySecondTest()[pri:0, instance:JavaStartSelenium.SecondAutomatedTest@15b204a1]" started-at="2022-04-10T14:02:45 CEST" name="mySecondTest" finished-at="2022-04-10T14:02:46 CEST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySecondTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSelenium.SecondAutomatedTest@15b204a1]" started-at="2022-04-10T14:02:46 CEST" name="afterTest" finished-at="2022-04-10T14:02:46 CEST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSelenium.SecondAutomatedTest -->
+      <class name="JavaStartSelenium.CalculatorTest">
+        <test-method signature="sumTwoNumbersAssertEquals()[pri:0, instance:JavaStartSelenium.CalculatorTest@6293abcc]" started-at="2022-04-10T14:02:32 CEST" name="sumTwoNumbersAssertEquals" finished-at="2022-04-10T14:02:32 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumTwoNumbersAssertEquals -->
+        <test-method signature="sumTwoNumbersAssertFalse()[pri:0, instance:JavaStartSelenium.CalculatorTest@6293abcc]" started-at="2022-04-10T14:02:32 CEST" name="sumTwoNumbersAssertFalse" finished-at="2022-04-10T14:02:32 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumTwoNumbersAssertFalse -->
+        <test-method signature="sumTwoNumbersAssertTrue()[pri:0, instance:JavaStartSelenium.CalculatorTest@6293abcc]" started-at="2022-04-10T14:02:32 CEST" name="sumTwoNumbersAssertTrue" finished-at="2022-04-10T14:02:32 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumTwoNumbersAssertTrue -->
+      </class> <!-- JavaStartSelenium.CalculatorTest -->
+      <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@6973bf95]" started-at="2022-04-10T14:02:49 CEST" name="beforeTest" finished-at="2022-04-10T14:02:50 CEST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@6973bf95]" started-at="2022-04-10T14:02:50 CEST" name="asNotLoggedInUserIShallNotProceedToCheckout" finished-at="2022-04-10T14:02:51 CEST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@6973bf95]" started-at="2022-04-10T14:02:51 CEST" name="afterTest" finished-at="2022-04-10T14:02:51 CEST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest -->
+      <class name="JavaStartSelenium.FourthLocatorsExerciseTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSelenium.FourthLocatorsExerciseTest@124c278f]" started-at="2022-04-10T14:02:30 CEST" name="beforeTest" finished-at="2022-04-10T14:02:31 CEST" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="firstLocatorTest()[pri:0, instance:JavaStartSelenium.FourthLocatorsExerciseTest@124c278f]" started-at="2022-04-10T14:02:44 CEST" name="firstLocatorTest" finished-at="2022-04-10T14:02:45 CEST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstLocatorTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSelenium.FourthLocatorsExerciseTest@124c278f]" started-at="2022-04-10T14:02:51 CEST" name="afterTest" finished-at="2022-04-10T14:02:51 CEST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSelenium.FourthLocatorsExerciseTest -->
+      <class name="JavaStartSelenium.FirstAutomatedTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSelenium.FirstAutomatedTest@2a32de6c]" started-at="2022-04-10T14:02:32 CEST" name="beforeTest" finished-at="2022-04-10T14:02:32 CEST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="myFirstTest()[pri:0, instance:JavaStartSelenium.FirstAutomatedTest@2a32de6c]" started-at="2022-04-10T14:02:32 CEST" name="myFirstTest" finished-at="2022-04-10T14:02:34 CEST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myFirstTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSelenium.FirstAutomatedTest@2a32de6c]" started-at="2022-04-10T14:02:34 CEST" name="afterTest" finished-at="2022-04-10T14:02:38 CEST" duration-ms="4196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSelenium.FirstAutomatedTest@2a32de6c]" started-at="2022-04-10T14:02:38 CEST" name="beforeTest" finished-at="2022-04-10T14:02:39 CEST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="myFirstTestEDITED()[pri:0, instance:JavaStartSelenium.FirstAutomatedTest@2a32de6c]" started-at="2022-04-10T14:02:39 CEST" name="myFirstTestEDITED" finished-at="2022-04-10T14:02:40 CEST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myFirstTestEDITED -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSelenium.FirstAutomatedTest@2a32de6c]" started-at="2022-04-10T14:02:40 CEST" name="afterTest" finished-at="2022-04-10T14:02:44 CEST" duration-ms="4193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSelenium.FirstAutomatedTest -->
+      <class name="JavaStartSelenium.ThirdXPathExerciseTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSelenium.ThirdXPathExerciseTest@77167fb7]" started-at="2022-04-10T14:02:31 CEST" name="beforeTest" finished-at="2022-04-10T14:02:32 CEST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="firstXpathTest()[pri:0, instance:JavaStartSelenium.ThirdXPathExerciseTest@77167fb7]" started-at="2022-04-10T14:02:46 CEST" name="firstXpathTest" finished-at="2022-04-10T14:02:46 CEST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstXpathTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSelenium.ThirdXPathExerciseTest@77167fb7]" started-at="2022-04-10T14:02:51 CEST" name="afterTest" finished-at="2022-04-10T14:02:51 CEST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSelenium.ThirdXPathExerciseTest -->
+      <class name="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6ce139a4]" started-at="2022-04-10T14:02:48 CEST" name="beforeTest" finished-at="2022-04-10T14:02:49 CEST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6ce139a4]" started-at="2022-04-10T14:02:49 CEST" name="asUserLoginUsingValidLoginAndPassword" finished-at="2022-04-10T14:02:49 CEST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6ce139a4]" started-at="2022-04-10T14:02:49 CEST" name="afterTest" finished-at="2022-04-10T14:02:49 CEST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
