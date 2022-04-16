@@ -43,6 +43,19 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M6</version>
+                <configuration>
+                    <suiteXmlFiles>
+<!-- Błąd jest to spowodowany tym, że zamiast wpisywać na twardo (co też moglibyśmy zrobić) ścieżki do pliku XML,
+podaliśmy parametr ${testSuite}, który będziemy zadawać z linii poleceń.
+Wskazywanie błędu przez IntelliJ nic nam nie zmienia w projekcie. Projekt dalej buduje się i kompiluje poprawnie.
+Jeśli jednak przeszkadza ci to, możesz zapisać na twardo ścieżkę do pliku XML, który chcesz uruchamiać.
+Na przykład: <suiteXmlFile>src\test\resources\all_tests_suite.xml</suiteXmlFile>
+
+Uruchomienie dla ${testSuite} "mvn clean test -Dsurefire.suiteXmlFiles=src\test\resources\all_tests_suite.xml
+Dla twardeś ścieżki to: "mvn clean test" -->
+                        <suiteXmlFile>${testSuite}</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -11,6 +11,7 @@ D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\Calcu
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\tests\FailedLoginTests.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\ShoppingCartPage.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\tests\ShoppingCartTest.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\PropertiesLoader.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\FirstAutomatedTest.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\WebElementsTests_7.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\LandingPage.java
@@ -29,6 +30,9 @@ D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\FileU
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\HoverTests_7_4.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\FourthLocatorsExerciseTest.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\AnimalsCategoryPage.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\ConfigurationProperties.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\LocalWebDriverProperties.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\TopMenuPage.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\tests\PositiveLoginTests.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\ExplicitWaitTests_8_1.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\AppProperties.java
