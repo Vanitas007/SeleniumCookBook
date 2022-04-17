@@ -11,7 +11,6 @@ public class ConfigurationProperties {
     //Wzorzec Singleton
     private ConfigurationProperties() {
     }
-
     //Metoda służy do załadowania obiektu properties do statycznego obiektu typu Properties, dostępnego dla wszystkich
     // wątków
     public static void setProperties(Properties properties) {
@@ -25,5 +24,7 @@ public class ConfigurationProperties {
         }
         return properties;
     }
+
+
 
 }
