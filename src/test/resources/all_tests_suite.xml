@@ -3,19 +3,21 @@
 <suite name="All Pet Store Tests" parallel="tests" thread-count="3">
 
     <test name="Negative Login Tests">
+        <parameter name="browser" value="FIREFOX"/>
         <classes>
             <class name="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"/>
         </classes>
     </test>
 
     <test name="Positive Login Tests">
+        <parameter name="browser" value="CHROME"/>
         <classes>
             <class name="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests"/>
-<!--            <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest"/>-->
         </classes>
     </test>
-    
+
     <test name="Shopping Cart Tests">
+        <parameter name="browser" value="CHROME"/>
         <classes>
             <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest"/>
         </classes>
