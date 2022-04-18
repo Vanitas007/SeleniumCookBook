@@ -18,7 +18,7 @@ public class SeleniumGridExampleTest {
 /** Uruchomienie HUBa: java -jar selenium-server-4.1.3.jar hub
  * Uruchomienie NODa: java -Dwebdriver.chrome.driver=D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\main\resources\chromedriver.exe  -jar selenium-server-4.1.3.jar node*/
 
-// Z ustawieniami: -jar selenium-server-4.1.3.jar node --config D:\Programy\SeleniumGridNode\NodeConfiguration.toml
+// Z ustawieniami: java -Dwebdriver.chrome.driver=D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\main\resources\chromedriver.exe  -jar selenium-server-4.1.3.jar node --config D:\Programy\SeleniumGridNode\NodeConfiguration.toml
     private WebDriver driver;
 
     @BeforeMethod
