@@ -2,11 +2,10 @@ package JavaStartSeleniumRozdzial_9.tests;
 
 import JavaStartSeleniumRozdzial_9.configuration.ConfigurationProperties;
 import JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader;
+import JavaStartSeleniumRozdzial_9.driver.manager.BrowserType;
 import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
 import JavaStartSeleniumRozdzial_9.driver.DriverUtils;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import java.util.Properties;
 
@@ -21,8 +20,10 @@ public class TestBase {
         ConfigurationProperties.setProperties(propertiesFromFile);
     }
 
+    @Parameters("browser")
     @BeforeMethod
-    public void beforeTest() {
+    public void beforeTest(@Optional BrowserType browserType) {
+        DriverManager.setWebDriver(browserType);
         DriverManager.getWebDriver();
         DriverUtils.setInitialConfiguration();
         DriverUtils.navigateToPage(APPLICATION_URL);
@@ -32,5 +33,4 @@ public class TestBase {
     public void afterTest() {
         DriverManager.disposeDriver();
     }
-
 }

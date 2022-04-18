@@ -69,7 +69,7 @@ public class BrowserFactory {
     //Metoda zwraca nam obiekt RemoteWebDrivera na podstawie obiektu desiredCapabilities
     private WebDriver getRemoteWebDriver(DesiredCapabilities desiredCapabilities) {
         RemoteWebDriver remoteWebDriver = null;
-        //Zauważ, że RemoteWebDriver znajduje się w bloku try-catch. Wynika to z faktu, że obiekt URL rzuca wyjątkiem MalformedURLException
+
         try {
             remoteWebDriver = new RemoteWebDriver(new URL(TestRunProperties.getGridUrl()), desiredCapabilities);
         } catch (MalformedURLException e) {
