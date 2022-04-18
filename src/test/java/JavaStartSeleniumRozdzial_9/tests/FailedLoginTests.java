@@ -25,8 +25,6 @@ public class FailedLoginTests extends TestBase {
         String warningMessage = loginPage.getWarningMessage();
 
         assertEquals(warningMessage, "Invalid username or password. Signon failed.");
-
-        System.out.println("kurw amac");
     }
 }
 
