@@ -53,8 +53,18 @@ Na przykład: <suiteXmlFile>src\test\resources\all_tests_suite.xml</suiteXmlFile
 
 Uruchomienie dla ${testSuite} "mvn clean test -Dsurefire.suiteXmlFiles=src\test\resources\all_tests_suite.xml
 Dla twardeś ścieżki to: "mvn clean test" -->
-                        <suiteXmlFile>${testSuite}</suiteXmlFile>
+                        <suiteXmlFile>\src\test\resources\all_tests_suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <source>16</source>
+                    <target>16</target>
                 </configuration>
             </plugin>
         </plugins>
