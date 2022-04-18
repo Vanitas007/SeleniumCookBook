@@ -1,6 +1,6 @@
 package JavaStartSeleniumRozdzial_9.waits;
 
-import JavaStartSeleniumRozdzial_9.driver.DriverManager;
+import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;

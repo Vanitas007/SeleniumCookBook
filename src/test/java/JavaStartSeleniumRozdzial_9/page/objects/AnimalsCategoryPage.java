@@ -1,6 +1,6 @@
 package JavaStartSeleniumRozdzial_9.page.objects;
 
-import JavaStartSeleniumRozdzial_9.driver.DriverManager;
+import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
 import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

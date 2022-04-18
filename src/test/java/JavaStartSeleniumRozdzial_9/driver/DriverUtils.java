@@ -1,6 +1,8 @@
 package JavaStartSeleniumRozdzial_9.driver;
 
 
+import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
+
 public class DriverUtils {
 
     public static void setInitialConfiguration() {
