@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "JavaStartSeleniumRozdzial_9.tests",
+    "children" : [ {
+      "name" : "PositiveLoginTests",
+      "children" : [ {
+        "name" : "asUserLoginUsingValidLoginAndPassword",
+        "uid" : "156f4af3dae41c0b",
+        "parentUid" : "7c081a94cda877799fe7b3cae3741484",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650396977470,
+          "stop" : 1650396978595,
+          "duration" : 1125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "7c081a94cda877799fe7b3cae3741484"
+    }, {
+      "name" : "FailedLoginTests",
+      "children" : [ {
+        "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+        "uid" : "324aae903575aae3",
+        "parentUid" : "0e73229dbd598900786e97c8646b668c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650396977470,
+          "stop" : 1650396978520,
+          "duration" : 1050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "0e73229dbd598900786e97c8646b668c"
+    }, {
+      "name" : "ShoppingCartTest",
+      "children" : [ {
+        "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+        "uid" : "aa6e51810104430e",
+        "parentUid" : "994f974384c5e776d989a911652c5313",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650396977470,
+          "stop" : 1650396978709,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "994f974384c5e776d989a911652c5313"
+    } ],
+    "uid" : "JavaStartSeleniumRozdzial_9.tests"
+  } ]
+}

@@ -3,17 +3,37 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.secookbook.examples</groupId>
     <artifactId>JavaStartSelenium</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <aspectj.version>1.9.9.1</aspectj.version>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.17.3</version>
+        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -29,34 +49,57 @@
             <artifactId>log4j-core</artifactId>
             <version>2.17.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.36</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
         <plugins>
             <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <reportVersion>2.10.0</reportVersion>
+                </configuration>
+            </plugin>
+
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M6</version>
                 <configuration>
+                    <!--Nowy parametr określający gdzie maven-surefire-plugin ma zapisywać wyniki z testów-->
+                    <systemPropertyVariables>
+                        <allure.results.directory>${basedir}/target/allure-results</allure.results.directory>
+                    </systemPropertyVariables>
                     <suiteXmlFiles>
-<!-- Błąd jest to spowodowany tym, że zamiast wpisywać na twardo (co też moglibyśmy zrobić) ścieżki do pliku XML,
-podaliśmy parametr ${testSuite}, który będziemy zadawać z linii poleceń.
-Wskazywanie błędu przez IntelliJ nic nam nie zmienia w projekcie. Projekt dalej buduje się i kompiluje poprawnie.
-Jeśli jednak przeszkadza ci to, możesz zapisać na twardo ścieżkę do pliku XML, który chcesz uruchamiać.
-Na przykład: <suiteXmlFile>src\test\resources\all_tests_suite.xml</suiteXmlFile>
+                        <!-- Błąd jest to spowodowany tym, że zamiast wpisywać na twardo (co też moglibyśmy zrobić) ścieżki do pliku XML,
+                        podaliśmy parametr ${testSuite}, który będziemy zadawać z linii poleceń.
+                        Wskazywanie błędu przez IntelliJ nic nam nie zmienia w projekcie. Projekt dalej buduje się i kompiluje poprawnie.
+                        Jeśli jednak przeszkadza ci to, możesz zapisać na twardo ścieżkę do pliku XML, który chcesz uruchamiać.
+                        Na przykład: <suiteXmlFile>src\test\resources\all_tests_suite.xml</suiteXmlFile>
 
-Uruchomienie dla ${testSuite} "mvn clean test -Dsurefire.suiteXmlFiles=src\test\resources\all_tests_suite.xml
-Dla twardeś ścieżki to: "mvn clean test" -->
-                        <suiteXmlFile>\src\test\resources\all_tests_suite.xml</suiteXmlFile>
+                        Uruchomienie dla ${testSuite} "mvn clean test -Dsurefire.suiteXmlFiles=src\test\resources\all_tests_suite.xml
+                        Dla twardeś ścieżki to: "mvn clean test" -->
+<!--                        <suiteXmlFile>\src\test\resources\all_tests_suite.xml</suiteXmlFile>-->
+                        <suiteXmlFile>D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\resources\all_tests_suite.xml</suiteXmlFile>
+
                     </suiteXmlFiles>
+                    <!--Konfiguracja Allura ze ścieżką do biblioteki aspectjweaver-->
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
                 </configuration>
+                <!--Dodanie dodatkowych zależności do maven-surefire-plugin w postaci biblioteki aspectjweaver-->
+                <!--Sekcja ta określa zależności dla danego pluginu-->
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

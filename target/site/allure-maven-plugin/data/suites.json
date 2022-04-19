@@ -1,0 +1,72 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Pet Store Tests",
+    "children" : [ {
+      "name" : "Positive Login Tests",
+      "children" : [ {
+        "name" : "JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests",
+        "children" : [ {
+          "name" : "asUserLoginUsingValidLoginAndPassword",
+          "uid" : "156f4af3dae41c0b",
+          "parentUid" : "83154ee78b847ca0b915bd1cf0f65824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650396977470,
+            "stop" : 1650396978595,
+            "duration" : 1125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "83154ee78b847ca0b915bd1cf0f65824"
+      } ],
+      "uid" : "3f7b28050a2eddd01a0448d1e9e1b201"
+    }, {
+      "name" : "Negative Login Tests",
+      "children" : [ {
+        "name" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests",
+        "children" : [ {
+          "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+          "uid" : "324aae903575aae3",
+          "parentUid" : "56f920be8fb4f1ce400e3334c0081edf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650396977470,
+            "stop" : 1650396978520,
+            "duration" : 1050
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "56f920be8fb4f1ce400e3334c0081edf"
+      } ],
+      "uid" : "c55ec735e4aeb2c7b6180756da6692f6"
+    }, {
+      "name" : "Shopping Cart Tests",
+      "children" : [ {
+        "name" : "JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest",
+        "children" : [ {
+          "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+          "uid" : "aa6e51810104430e",
+          "parentUid" : "a4cf6b1245872d202f013c3f2a88818b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650396977470,
+            "stop" : 1650396978709,
+            "duration" : 1239
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "a4cf6b1245872d202f013c3f2a88818b"
+      } ],
+      "uid" : "325e96787f565170bc1fa277edac68d3"
+    } ],
+    "uid" : "20dcff51a2ecd4af73f197737658a290"
+  } ]
+}
