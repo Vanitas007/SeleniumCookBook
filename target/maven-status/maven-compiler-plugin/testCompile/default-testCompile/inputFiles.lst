@@ -4,7 +4,6 @@ D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\Third
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\SecondAutomatedTest.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\driver\manager\BrowserFactory.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\CheckoutPage.java
-D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\driver\DriverManager.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\FooterPage.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\CheckBoxesTest_7_1.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\CalculatorTest.java
@@ -13,7 +12,9 @@ D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzi
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\tests\ShoppingCartTest.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\PropertiesLoader.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\FirstAutomatedTest.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\Rozdzia³_10_GRID\SeleniumGridExampleTest.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\WebElementsTests_7.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\TestRunProperties.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\LandingPage.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\FluentWaitTests2_8_4.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\FluentWaitTests_8_3.java
@@ -34,5 +35,6 @@ D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzi
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\LocalWebDriverProperties.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\TopMenuPage.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\tests\PositiveLoginTests.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\driver\manager\DriverManager.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\ExplicitWaitTests_8_1.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\configuration\AppProperties.java

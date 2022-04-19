@@ -1,0 +1,31 @@
+[ {
+  "uid" : "324aae903575aae3",
+  "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+  "time" : {
+    "start" : 1650396977470,
+    "stop" : 1650396978520,
+    "duration" : 1050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa6e51810104430e",
+  "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+  "time" : {
+    "start" : 1650396977470,
+    "stop" : 1650396978709,
+    "duration" : 1239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "156f4af3dae41c0b",
+  "name" : "asUserLoginUsingValidLoginAndPassword",
+  "time" : {
+    "start" : 1650396977470,
+    "stop" : 1650396978595,
+    "duration" : 1125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

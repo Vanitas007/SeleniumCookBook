@@ -2,66 +2,89 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-16T16:34:19 CEST" name="All Pet Store Tests" finished-at="2022-04-16T16:34:24 CEST" duration-ms="5555">
+  <suite started-at="2022-04-19T21:36:14 CEST" name="All Pet Store Tests" finished-at="2022-04-19T21:36:18 CEST" duration-ms="4718">
     <groups>
     </groups>
-    <test started-at="2022-04-16T16:34:19 CEST" name="Negative Login Tests" finished-at="2022-04-16T16:34:21 CEST" duration-ms="2447">
+    <test started-at="2022-04-19T21:36:14 CEST" name="Negative Login Tests" finished-at="2022-04-19T21:36:18 CEST" duration-ms="4568">
       <class name="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@636be97c]" started-at="2022-04-16T16:34:19 CEST" name="beforeClass" finished-at="2022-04-16T16:34:19 CEST" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@48bfb884]" started-at="2022-04-19T21:36:14 CEST" name="beforeClass" finished-at="2022-04-19T21:36:14 CEST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@636be97c]" started-at="2022-04-16T16:34:19 CEST" name="beforeTest" finished-at="2022-04-16T16:34:20 CEST" duration-ms="1396" status="PASS">
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.manager.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@48bfb884]" started-at="2022-04-19T21:36:14 CEST" name="beforeTest" finished-at="2022-04-19T21:36:17 CEST" duration-ms="2887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@636be97c]" started-at="2022-04-16T16:34:20 CEST" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-04-16T16:34:21 CEST" duration-ms="628" status="PASS">
+        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@48bfb884]" started-at="2022-04-19T21:36:17 CEST" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-04-19T21:36:18 CEST" duration-ms="1068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@636be97c]" started-at="2022-04-16T16:34:21 CEST" name="afterTest" finished-at="2022-04-16T16:34:21 CEST" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@48bfb884]" started-at="2022-04-19T21:36:18 CEST" name="afterTest" finished-at="2022-04-19T21:36:18 CEST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- JavaStartSeleniumRozdzial_9.tests.FailedLoginTests -->
     </test> <!-- Negative Login Tests -->
-    <test started-at="2022-04-16T16:34:21 CEST" name="Positive Login Tests" finished-at="2022-04-16T16:34:24 CEST" duration-ms="3092">
-      <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@1ab3a8c8]" started-at="2022-04-16T16:34:23 CEST" name="beforeClass" finished-at="2022-04-16T16:34:23 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@1ab3a8c8]" started-at="2022-04-16T16:34:23 CEST" name="beforeTest" finished-at="2022-04-16T16:34:23 CEST" duration-ms="811" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@1ab3a8c8]" started-at="2022-04-16T16:34:23 CEST" name="asNotLoggedInUserIShallNotProceedToCheckout" finished-at="2022-04-16T16:34:24 CEST" duration-ms="623" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@1ab3a8c8]" started-at="2022-04-16T16:34:24 CEST" name="afterTest" finished-at="2022-04-16T16:34:24 CEST" duration-ms="101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest -->
+    <test started-at="2022-04-19T21:36:14 CEST" name="Positive Login Tests" finished-at="2022-04-19T21:36:18 CEST" duration-ms="4671">
       <class name="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6973b51b]" started-at="2022-04-16T16:34:21 CEST" name="beforeClass" finished-at="2022-04-16T16:34:21 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6872f9c8]" started-at="2022-04-19T21:36:14 CEST" name="beforeClass" finished-at="2022-04-19T21:36:14 CEST" duration-ms="549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6973b51b]" started-at="2022-04-16T16:34:21 CEST" name="beforeTest" finished-at="2022-04-16T16:34:22 CEST" duration-ms="821" status="PASS">
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.manager.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6872f9c8]" started-at="2022-04-19T21:36:14 CEST" name="beforeTest" finished-at="2022-04-19T21:36:17 CEST" duration-ms="2709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6973b51b]" started-at="2022-04-16T16:34:22 CEST" name="asUserLoginUsingValidLoginAndPassword" finished-at="2022-04-16T16:34:22 CEST" duration-ms="614" status="PASS">
+        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6872f9c8]" started-at="2022-04-19T21:36:17 CEST" name="asUserLoginUsingValidLoginAndPassword" finished-at="2022-04-19T21:36:18 CEST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6973b51b]" started-at="2022-04-16T16:34:22 CEST" name="afterTest" finished-at="2022-04-16T16:34:23 CEST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@6872f9c8]" started-at="2022-04-19T21:36:18 CEST" name="afterTest" finished-at="2022-04-19T21:36:18 CEST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests -->
     </test> <!-- Positive Login Tests -->
+    <test started-at="2022-04-19T21:36:14 CEST" name="Shopping Cart Tests" finished-at="2022-04-19T21:36:18 CEST" duration-ms="4718">
+      <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@5d58c727]" started-at="2022-04-19T21:36:14 CEST" name="beforeClass" finished-at="2022-04-19T21:36:14 CEST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.manager.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@5d58c727]" started-at="2022-04-19T21:36:14 CEST" name="beforeTest" finished-at="2022-04-19T21:36:17 CEST" duration-ms="2887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@5d58c727]" started-at="2022-04-19T21:36:17 CEST" name="asNotLoggedInUserIShallNotProceedToCheckout" finished-at="2022-04-19T21:36:18 CEST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@5d58c727]" started-at="2022-04-19T21:36:18 CEST" name="afterTest" finished-at="2022-04-19T21:36:18 CEST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest -->
+    </test> <!-- Shopping Cart Tests -->
   </suite> <!-- All Pet Store Tests -->
 </testng-results>
