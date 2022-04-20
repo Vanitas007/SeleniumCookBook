@@ -4,56 +4,56 @@
   "children" : [ {
     "name" : "VanitasPC",
     "children" : [ {
-      "name" : "10360@VanitasPC.TestNG-tests-2(20)",
+      "name" : "14836@VanitasPC.TestNG-tests-2(20)",
       "children" : [ {
         "name" : "asUserLoginUsingValidLoginAndPassword",
-        "uid" : "156f4af3dae41c0b",
-        "parentUid" : "3fd2445ccb66cc4de34bd4411e226d9a",
+        "uid" : "c94d59a29409c34d",
+        "parentUid" : "57240a4947760c001bc3d8478b7c7e45",
         "status" : "passed",
         "time" : {
-          "start" : 1650396977470,
-          "stop" : 1650396978595,
-          "duration" : 1125
+          "start" : 1650482441009,
+          "stop" : 1650482442049,
+          "duration" : 1040
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "3fd2445ccb66cc4de34bd4411e226d9a"
+      "uid" : "57240a4947760c001bc3d8478b7c7e45"
     }, {
-      "name" : "10360@VanitasPC.TestNG-tests-1(19)",
+      "name" : "14836@VanitasPC.TestNG-tests-1(19)",
       "children" : [ {
         "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-        "uid" : "324aae903575aae3",
-        "parentUid" : "320854cfd036789dce79f4d73084c24a",
+        "uid" : "d6145da5a6b34c89",
+        "parentUid" : "9b893b02f6121439575d19f319dc638b",
         "status" : "passed",
         "time" : {
-          "start" : 1650396977470,
-          "stop" : 1650396978520,
-          "duration" : 1050
+          "start" : 1650482441009,
+          "stop" : 1650482441959,
+          "duration" : 950
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "320854cfd036789dce79f4d73084c24a"
+      "uid" : "9b893b02f6121439575d19f319dc638b"
     }, {
-      "name" : "10360@VanitasPC.TestNG-tests-3(21)",
+      "name" : "14836@VanitasPC.TestNG-tests-3(21)",
       "children" : [ {
         "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-        "uid" : "aa6e51810104430e",
-        "parentUid" : "dd20cfb236ba1112b8b6309a70532b44",
+        "uid" : "29637fd3a96ed472",
+        "parentUid" : "fafa8967f46f68ebe3d8bd68e621e917",
         "status" : "passed",
         "time" : {
-          "start" : 1650396977470,
-          "stop" : 1650396978709,
-          "duration" : 1239
+          "start" : 1650482441009,
+          "stop" : 1650482442154,
+          "duration" : 1145
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "dd20cfb236ba1112b8b6309a70532b44"
+      "uid" : "fafa8967f46f68ebe3d8bd68e621e917"
     } ],
     "uid" : "559a3ed1aa44eef87a9cc3704056d108"
   } ]
