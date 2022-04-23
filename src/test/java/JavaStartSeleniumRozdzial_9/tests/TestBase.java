@@ -2,8 +2,8 @@ package JavaStartSeleniumRozdzial_9.tests;
 
 import JavaStartSeleniumRozdzial_9.configuration.ConfigurationProperties;
 import JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader;
-import JavaStartSeleniumRozdzial_9.driver.DriverUtils;
-import JavaStartSeleniumRozdzial_9.driver.manager.BrowserType;
+import JavaStartSeleniumRozdzial_9.driver.manager.DriverUtils;
+import JavaStartSeleniumRozdzial_9.driver.BrowserType;
 import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
 import io.qameta.allure.Step;
 import org.testng.annotations.*;

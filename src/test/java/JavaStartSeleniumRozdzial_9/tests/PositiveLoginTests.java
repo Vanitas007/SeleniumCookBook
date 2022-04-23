@@ -1,6 +1,6 @@
 package JavaStartSeleniumRozdzial_9.tests;
 
-import JavaStartSeleniumRozdzial_9.driver.DriverUtils;
+import JavaStartSeleniumRozdzial_9.driver.manager.DriverUtils;
 import JavaStartSeleniumRozdzial_9.page.objects.LandingPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;

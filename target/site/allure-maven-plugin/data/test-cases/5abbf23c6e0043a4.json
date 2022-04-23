@@ -1,0 +1,332 @@
+{
+  "uid" : "5abbf23c6e0043a4",
+  "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+  "fullName" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword",
+  "historyId" : "7c26bc8f174fd4f552bb4e4429b1b50",
+  "time" : {
+    "start" : 1650536866380,
+    "stop" : 1650536867287,
+    "duration" : 907
+  },
+  "description" : "The goal of this test is to log in using not proper username and password and check if warning message Invalid username or password is displayed",
+  "descriptionHtml" : "<p>The goal of this test is to log in using not proper username and password and check if warning message Invalid username or password is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1650536863811,
+      "stop" : 1650536864162,
+      "duration" : 351
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Loading configuration from configuration.properties",
+      "time" : {
+        "start" : 1650536863828,
+        "stop" : 1650536864161,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1650536864180,
+      "stop" : 1650536866288,
+      "duration" : 2108
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setting up browser to: CHROME and navigating to Home Page",
+      "time" : {
+        "start" : 1650536864183,
+        "stop" : 1650536866287,
+        "duration" : 2104
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Maximizing browser window",
+        "time" : {
+          "start" : 1650536865997,
+          "stop" : 1650536866141,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Navigating to URL: http://przyklady.javastart.pl/jpetstore/",
+        "time" : {
+          "start" : 1650536866144,
+          "stop" : 1650536866287,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pageUrl",
+          "value" : "http://przyklady.javastart.pl/jpetstore/"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browserType",
+        "value" : "CHROME"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "The goal of this test is to log in using not proper username and password and check if warning message Invalid username or password is displayed",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigating to URL: http://przyklady.javastart.pl/jpetstore/actions/Account.action?signonForm=",
+      "time" : {
+        "start" : 1650536866381,
+        "stop" : 1650536866508,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pageUrl",
+        "value" : "http://przyklady.javastart.pl/jpetstore/actions/Account.action?signonForm="
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Enter Store link",
+      "time" : {
+        "start" : 1650536866538,
+        "stop" : 1650536866776,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Sign In Link",
+      "time" : {
+        "start" : 1650536866777,
+        "stop" : 1650536866978,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Type into User Name Field NotExistingLogin",
+      "time" : {
+        "start" : 1650536866978,
+        "stop" : 1650536867054,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "NotExistingLogin"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Type into Password Field NotProperPassword",
+      "time" : {
+        "start" : 1650536867055,
+        "stop" : 1650536867139,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "NotProperPassword"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Login Button",
+      "time" : {
+        "start" : 1650536867139,
+        "stop" : 1650536867226,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Getting warning message from Login Page",
+      "time" : {
+        "start" : 1650536867227,
+        "stop" : 1650536867284,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1650536867292,
+      "stop" : 1650536867430,
+      "duration" : 138
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Disposing browser",
+      "time" : {
+        "start" : 1650536867293,
+        "stop" : 1650536867430,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "asUserTryToLogInWithIncorrectLoginAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Pet Store Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Negative Login Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"
+  }, {
+    "name" : "host",
+    "value" : "VanitasPC"
+  }, {
+    "name" : "thread",
+    "value" : "2256@VanitasPC.TestNG-tests-1(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "CHROME"
+  } ],
+  "links" : [ {
+    "name" : "P213456",
+    "url" : "https://example-tms-system.org/tms/P213456",
+    "type" : "tms"
+  }, {
+    "name" : "DEFECT-1",
+    "url" : "https://example-issue-system.org/issue/DEFECT-1",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5abbf23c6e0043a4.json",
+  "parameterValues" : [ "CHROME" ]
+}

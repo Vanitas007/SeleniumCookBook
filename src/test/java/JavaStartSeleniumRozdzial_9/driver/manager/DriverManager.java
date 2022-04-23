@@ -1,10 +1,13 @@
 package JavaStartSeleniumRozdzial_9.driver.manager;
 
+import JavaStartSeleniumRozdzial_9.driver.BrowserFactory;
+import JavaStartSeleniumRozdzial_9.driver.BrowserType;
+import JavaStartSeleniumRozdzial_9.driver.listeners.WebDriverEventListenerRegistrar;
 import org.openqa.selenium.WebDriver;
 
 import static JavaStartSeleniumRozdzial_9.configuration.TestRunProperties.getBrowserToRun;
 import static JavaStartSeleniumRozdzial_9.configuration.TestRunProperties.getIsRemoteRun;
-import static JavaStartSeleniumRozdzial_9.driver.manager.BrowserType.FIREFOX;
+import static JavaStartSeleniumRozdzial_9.driver.BrowserType.FIREFOX;
 
 public class DriverManager {
 
@@ -34,6 +37,8 @@ public class DriverManager {
             //To znaczy, że został on zdefiniowany w pliku TestNG XML i możemy go używać
             browser = new BrowserFactory(browserType, getIsRemoteRun()).getBrowser();
         }
+
+        browser = WebDriverEventListenerRegistrar.registerWebDriverEventListener(browser);
 
         //Dodanie do puli instancji ThreadLocal za pomocą metody set() instancji klasy BrowserType
         browserTypeThreadLocal.set(browserType);
