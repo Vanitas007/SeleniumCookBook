@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AngelfishListPage {
 
-    Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(AngelfishListPage.class);
 
     @FindBy(css = "a.Button[href$=\"EST-1\"]")
     private WebElement addToCardLargeAngelfishButton;

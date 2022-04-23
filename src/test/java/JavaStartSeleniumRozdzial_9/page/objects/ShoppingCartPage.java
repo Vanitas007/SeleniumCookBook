@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCartPage {
 
-    Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(ShoppingCartPage.class);
 
     @FindBy(css = "a[href$=\"newOrderForm=\"]")
     private WebElement proceedToCheckoutButton;

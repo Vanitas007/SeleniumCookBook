@@ -7,13 +7,13 @@
       "name" : "PositiveLoginTests",
       "children" : [ {
         "name" : "asUserLoginUsingValidLoginAndPassword",
-        "uid" : "c94d59a29409c34d",
+        "uid" : "116429994b56ccf",
         "parentUid" : "7c081a94cda877799fe7b3cae3741484",
         "status" : "passed",
         "time" : {
-          "start" : 1650482441009,
-          "stop" : 1650482442049,
-          "duration" : 1040
+          "start" : 1650536866380,
+          "stop" : 1650536867407,
+          "duration" : 1027
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "FailedLoginTests",
       "children" : [ {
         "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-        "uid" : "d6145da5a6b34c89",
+        "uid" : "5abbf23c6e0043a4",
         "parentUid" : "0e73229dbd598900786e97c8646b668c",
         "status" : "passed",
         "time" : {
-          "start" : 1650482441009,
-          "stop" : 1650482441959,
-          "duration" : 950
+          "start" : 1650536866380,
+          "stop" : 1650536867287,
+          "duration" : 907
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "ShoppingCartTest",
       "children" : [ {
         "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-        "uid" : "29637fd3a96ed472",
+        "uid" : "8064d6bfdd2b78d2",
         "parentUid" : "994f974384c5e776d989a911652c5313",
         "status" : "passed",
         "time" : {
-          "start" : 1650482441009,
-          "stop" : 1650482442154,
-          "duration" : 1145
+          "start" : 1650536868344,
+          "stop" : 1650536869080,
+          "duration" : 736
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,6 +1,6 @@
 package JavaStartSeleniumRozdzial_9.configuration;
 
-import JavaStartSeleniumRozdzial_9.driver.manager.BrowserType;
+import JavaStartSeleniumRozdzial_9.driver.BrowserType;
 
 public class TestRunProperties {
 

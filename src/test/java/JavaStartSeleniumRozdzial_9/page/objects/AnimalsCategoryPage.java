@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AnimalsCategoryPage {
 
-    Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(AnimalsCategoryPage.class);
 
     @FindBy(css = "a[href$=\"Id=FISH\"]")
     private WebElement fishButton;
