@@ -3,6 +3,7 @@
 <suite thread-count="3" parallel="tests" name="Failed suite [All Pet Store Tests]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener"/>
+    <listener class-name="JavaStartSeleniumRozdzial_9.utils.testng.listeners.AnnotationTransformer"/>
   </listeners>
   <test thread-count="3" parallel="tests" name="Negative Login Tests(failed)" verbose="0">
     <parameter name="browser" value="CHROME"/>

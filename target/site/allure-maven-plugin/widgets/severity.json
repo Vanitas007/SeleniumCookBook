@@ -1,30 +1,30 @@
 [ {
-  "uid" : "8a559441452737a1",
-  "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-  "time" : {
-    "start" : 1650806190521,
-    "stop" : 1650806191602,
-    "duration" : 1081
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "219e40dceaf00834",
+  "uid" : "fdf3add6a0b791e3",
   "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
   "time" : {
-    "start" : 1650806190521,
-    "stop" : 1650806191774,
-    "duration" : 1253
+    "start" : 1650815006505,
+    "stop" : 1650815007891,
+    "duration" : 1386
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "a016c9999191e419",
+  "uid" : "a26f200a6ffecd44",
+  "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+  "time" : {
+    "start" : 1650815009845,
+    "stop" : 1650815010589,
+    "duration" : 744
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "310f444976482c93",
   "name" : "asUserLoginUsingValidLoginAndPassword",
   "time" : {
-    "start" : 1650806190521,
-    "stop" : 1650806191329,
-    "duration" : 808
+    "start" : 1650815006505,
+    "stop" : 1650815007329,
+    "duration" : 824
   },
   "status" : "passed",
   "severity" : "blocker"

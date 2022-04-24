@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "219e40dceaf00834",
+      "uid" : "fdf3add6a0b791e3",
       "status" : "passed",
       "time" : {
-        "start" : 1650806190521,
-        "stop" : 1650806191774,
-        "duration" : 1253
+        "start" : 1650815006505,
+        "stop" : 1650815007891,
+        "duration" : 1386
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8a559441452737a1",
+      "uid" : "a26f200a6ffecd44",
       "status" : "failed",
       "statusDetails" : "Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!",
       "time" : {
-        "start" : 1650806190521,
-        "stop" : 1650806191602,
-        "duration" : 1081
+        "start" : 1650815009845,
+        "stop" : 1650815010589,
+        "duration" : 744
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a016c9999191e419",
+      "uid" : "310f444976482c93",
       "status" : "passed",
       "time" : {
-        "start" : 1650806190521,
-        "stop" : 1650806191329,
-        "duration" : 808
+        "start" : 1650815006505,
+        "stop" : 1650815007329,
+        "duration" : 824
       }
     } ]
   }

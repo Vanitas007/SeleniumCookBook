@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results retried="2" ignored="0" total="5" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-24T15:16:27 CEST" name="All Pet Store Tests" finished-at="2022-04-24T15:16:31 CEST" duration-ms="4011">
+  <suite started-at="2022-04-24T17:43:23 CEST" name="All Pet Store Tests" finished-at="2022-04-24T17:43:30 CEST" duration-ms="7037">
     <groups>
     </groups>
-    <test started-at="2022-04-24T15:16:27 CEST" name="Positive Login Tests" finished-at="2022-04-24T15:16:31 CEST" duration-ms="3600">
+    <test started-at="2022-04-24T17:43:23 CEST" name="Positive Login Tests" finished-at="2022-04-24T17:43:27 CEST" duration-ms="3880">
       <class name="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T15:16:27 CEST" name="beforeClass" finished-at="2022-04-24T15:16:27 CEST" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T17:43:23 CEST" name="beforeClass" finished-at="2022-04-24T17:43:23 CEST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T15:16:27 CEST" name="beforeTest" finished-at="2022-04-24T15:16:30 CEST" duration-ms="2486" status="PASS">
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T17:43:23 CEST" name="beforeTest" finished-at="2022-04-24T17:43:26 CEST" duration-ms="2672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,23 +22,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T15:16:30 CEST" name="asUserLoginUsingValidLoginAndPassword" finished-at="2022-04-24T15:16:31 CEST" duration-ms="824" status="PASS">
+        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T17:43:26 CEST" name="asUserLoginUsingValidLoginAndPassword" finished-at="2022-04-24T17:43:27 CEST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T15:16:31 CEST" name="afterTest" finished-at="2022-04-24T15:16:31 CEST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests@759de304]" started-at="2022-04-24T17:43:27 CEST" name="afterTest" finished-at="2022-04-24T17:43:27 CEST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests -->
     </test> <!-- Positive Login Tests -->
-    <test started-at="2022-04-24T15:16:27 CEST" name="Negative Login Tests" finished-at="2022-04-24T15:16:31 CEST" duration-ms="3899">
-      <class name="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T15:16:27 CEST" name="beforeClass" finished-at="2022-04-24T15:16:27 CEST" duration-ms="46" status="PASS">
+    <test started-at="2022-04-24T17:43:23 CEST" name="Shopping Cart Tests" finished-at="2022-04-24T17:43:28 CEST" duration-ms="4406">
+      <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T17:43:23 CEST" name="beforeClass" finished-at="2022-04-24T17:43:23 CEST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T15:16:27 CEST" name="beforeTest" finished-at="2022-04-24T15:16:30 CEST" duration-ms="2515" status="PASS">
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T17:43:23 CEST" name="beforeTest" finished-at="2022-04-24T17:43:26 CEST" duration-ms="2690" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T15:16:30 CEST" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-04-24T15:16:31 CEST" duration-ms="882" status="FAIL">
+        <test-method signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T17:43:26 CEST" name="asNotLoggedInUserIShallNotProceedToCheckout" finished-at="2022-04-24T17:43:27 CEST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T17:43:27 CEST" name="afterTest" finished-at="2022-04-24T17:43:28 CEST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest -->
+    </test> <!-- Shopping Cart Tests -->
+    <test started-at="2022-04-24T17:43:23 CEST" name="Negative Login Tests" finished-at="2022-04-24T17:43:30 CEST" duration-ms="7037">
+      <class name="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:23 CEST" name="beforeClass" finished-at="2022-04-24T17:43:23 CEST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:23 CEST" name="beforeTest" finished-at="2022-04-24T17:43:26 CEST" duration-ms="2679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method retried="true" signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:26 CEST" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-04-24T17:43:27 CEST" duration-ms="907" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!]]>
@@ -87,19 +114,11 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T15:16:31 CEST" name="afterTest" finished-at="2022-04-24T15:16:31 CEST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:27 CEST" name="afterTest" finished-at="2022-04-24T17:43:27 CEST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- JavaStartSeleniumRozdzial_9.tests.FailedLoginTests -->
-    </test> <!-- Negative Login Tests -->
-    <test started-at="2022-04-24T15:16:27 CEST" name="Shopping Cart Tests" finished-at="2022-04-24T15:16:31 CEST" duration-ms="4011">
-      <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T15:16:27 CEST" name="beforeClass" finished-at="2022-04-24T15:16:27 CEST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T15:16:27 CEST" name="beforeTest" finished-at="2022-04-24T15:16:30 CEST" duration-ms="2487" status="PASS">
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:27 CEST" name="beforeTest" finished-at="2022-04-24T17:43:28 CEST" duration-ms="868" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,15 +129,102 @@ at java.base/java.lang.Thread.run(Thread.java:831)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T15:16:30 CEST" name="asNotLoggedInUserIShallNotProceedToCheckout" finished-at="2022-04-24T15:16:31 CEST" duration-ms="1273" status="PASS">
+        <test-method retried="true" signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:28 CEST" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-04-24T17:43:28 CEST" duration-ms="505" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!
+at JavaStartSeleniumRozdzial_9.page.objects.LoginPage.assertThatWarningIsDisplayed(LoginPage.java:63)
+at JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword(FailedLoginTests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest@70721c12]" started-at="2022-04-24T15:16:31 CEST" name="afterTest" finished-at="2022-04-24T15:16:31 CEST" duration-ms="92" status="PASS">
+        </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:28 CEST" name="afterTest" finished-at="2022-04-24T17:43:29 CEST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest -->
-    </test> <!-- Shopping Cart Tests -->
+        <test-method is-config="true" signature="beforeTest(JavaStartSeleniumRozdzial_9.driver.BrowserType)[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:29 CEST" name="beforeTest" finished-at="2022-04-24T17:43:29 CEST" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:29 CEST" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2022-04-24T17:43:30 CEST" duration-ms="547" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!
+at JavaStartSeleniumRozdzial_9.page.objects.LoginPage.assertThatWarningIsDisplayed(LoginPage.java:63)
+at JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword(FailedLoginTests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:JavaStartSeleniumRozdzial_9.tests.FailedLoginTests@1a256d80]" started-at="2022-04-24T17:43:30 CEST" name="afterTest" finished-at="2022-04-24T17:43:30 CEST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- JavaStartSeleniumRozdzial_9.tests.FailedLoginTests -->
+    </test> <!-- Negative Login Tests -->
   </suite> <!-- All Pet Store Tests -->
 </testng-results>

@@ -1,12 +1,12 @@
 {
-  "uid" : "a016c9999191e419",
+  "uid" : "310f444976482c93",
   "name" : "asUserLoginUsingValidLoginAndPassword",
   "fullName" : "JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword",
   "historyId" : "aee26434819565f764636cf0bca629d",
   "time" : {
-    "start" : 1650806190521,
-    "stop" : 1650806191329,
-    "duration" : 808
+    "start" : 1650815006505,
+    "stop" : 1650815007329,
+    "duration" : 824
   },
   "description" : "The goal of this test is to log in using proper username and password and check if Dog Banner is displayed after",
   "descriptionHtml" : "<p>The goal of this test is to log in using proper username and password and check if Dog Banner is displayed after</p>\n",
@@ -16,26 +16,26 @@
   "beforeStages" : [ {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1650806187941,
-      "stop" : 1650806190424,
-      "duration" : 2483
+      "start" : 1650815003733,
+      "stop" : 1650815006401,
+      "duration" : 2668
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Setting up browser to: CHROME and navigating to Home Page",
       "time" : {
-        "start" : 1650806187943,
-        "stop" : 1650806190424,
-        "duration" : 2481
+        "start" : 1650815003736,
+        "stop" : 1650815006401,
+        "duration" : 2665
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Maximizing browser window",
         "time" : {
-          "start" : 1650806190083,
-          "stop" : 1650806190257,
-          "duration" : 174
+          "start" : 1650815006062,
+          "stop" : 1650815006226,
+          "duration" : 164
         },
         "status" : "passed",
         "steps" : [ ],
@@ -43,14 +43,14 @@
         "parameters" : [ ],
         "hasContent" : false,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Navigating to URL: http://przyklady.javastart.pl/jpetstore/",
         "time" : {
-          "start" : 1650806190261,
-          "stop" : 1650806190424,
-          "duration" : 163
+          "start" : 1650815006229,
+          "stop" : 1650815006401,
+          "duration" : 172
         },
         "status" : "passed",
         "steps" : [ ],
@@ -61,8 +61,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
@@ -71,29 +71,29 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 2,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 3,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1650806187889,
-      "stop" : 1650806187925,
-      "duration" : 36
+      "start" : 1650815003682,
+      "stop" : 1650815003716,
+      "duration" : 34
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Loading configuration from configuration.properties",
       "time" : {
-        "start" : 1650806187907,
-        "stop" : 1650806187924,
+        "start" : 1650815003698,
+        "stop" : 1650815003715,
         "duration" : 17
       },
       "status" : "passed",
@@ -102,15 +102,15 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "The goal of this test is to log in using proper username and password and check if Dog Banner is displayed after",
@@ -118,9 +118,9 @@
     "steps" : [ {
       "name" : "Navigating to URL: http://przyklady.javastart.pl/jpetstore/actions/Account.action?signonForm=",
       "time" : {
-        "start" : 1650806190523,
-        "stop" : 1650806190666,
-        "duration" : 143
+        "start" : 1650815006506,
+        "stop" : 1650815006659,
+        "duration" : 153
       },
       "status" : "passed",
       "steps" : [ ],
@@ -131,14 +131,14 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Type into User Name Field j2ee",
       "time" : {
-        "start" : 1650806190679,
-        "stop" : 1650806190841,
-        "duration" : 162
+        "start" : 1650815006673,
+        "stop" : 1650815006853,
+        "duration" : 180
       },
       "status" : "passed",
       "steps" : [ ],
@@ -149,14 +149,14 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Type into Password Field j2ee",
       "time" : {
-        "start" : 1650806190841,
-        "stop" : 1650806190987,
-        "duration" : 146
+        "start" : 1650815006854,
+        "stop" : 1650815007007,
+        "duration" : 153
       },
       "status" : "passed",
       "steps" : [ ],
@@ -167,14 +167,14 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Click on Login Button",
       "time" : {
-        "start" : 1650806190988,
-        "stop" : 1650806191220,
-        "duration" : 232
+        "start" : 1650815007008,
+        "stop" : 1650815007229,
+        "duration" : 221
       },
       "status" : "passed",
       "steps" : [ ],
@@ -182,14 +182,14 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Assert that element dog banner is displayed",
       "time" : {
-        "start" : 1650806191220,
-        "stop" : 1650806191325,
-        "duration" : 105
+        "start" : 1650815007229,
+        "stop" : 1650815007326,
+        "duration" : 97
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,31 +197,31 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 5,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "afterTest",
     "time" : {
-      "start" : 1650806191335,
-      "stop" : 1650806191455,
-      "duration" : 120
+      "start" : 1650815007336,
+      "stop" : 1650815007523,
+      "duration" : 187
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Disposing browser",
       "time" : {
-        "start" : 1650806191335,
-        "stop" : 1650806191454,
-        "duration" : 119
+        "start" : 1650815007336,
+        "stop" : 1650815007523,
+        "duration" : 187
       },
       "status" : "passed",
       "steps" : [ ],
@@ -229,15 +229,15 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -262,7 +262,7 @@
     "value" : "VanitasPC"
   }, {
     "name" : "thread",
-    "value" : "5956@VanitasPC.TestNG-tests-2(21)"
+    "value" : "21660@VanitasPC.TestNG-tests-2(21)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -293,6 +293,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a016c9999191e419.json",
+  "source" : "310f444976482c93.json",
   "parameterValues" : [ "CHROME" ]
 }
