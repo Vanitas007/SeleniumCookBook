@@ -3,15 +3,11 @@ package JavaStartSeleniumRozdzial_9.page.objects;
 import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
 import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
 import io.qameta.allure.Step;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
-
-    private Logger logger = LogManager.getLogger(LandingPage.class);
+public class LandingPage extends BasePage{
 
     @FindBy(css = "#Content a")
     private WebElement enterStoreLink;
@@ -24,7 +20,7 @@ public class LandingPage {
     public TopMenuPage clickOnEnterStoreLink() {
         WaitForElement.waitUntilElementIsClickable(enterStoreLink);
         enterStoreLink.click();
-        logger.info("Clicked on Enter Store link");
+        log().info("Clicked on Enter Store link");
         return new TopMenuPage();
     }
 }
