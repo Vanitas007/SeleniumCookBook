@@ -9,8 +9,6 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.TmsLink;
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
-
 public class ShoppingCartTest extends TestBase {
 
     @TmsLink("P444555")
@@ -21,7 +19,8 @@ public class ShoppingCartTest extends TestBase {
     public void asNotLoggedInUserIShallNotProceedToCheckout() {
 
         LandingPage landingPage = new LandingPage();
-        landingPage.clickOnEnterStoreLink();
+        landingPage
+                .clickOnEnterStoreLink();
 
         AnimalsCategoryPage animalsCategoryPage = new AnimalsCategoryPage();
         animalsCategoryPage
@@ -31,7 +30,9 @@ public class ShoppingCartTest extends TestBase {
                 .clickOnProceedToCheckout();
 
         LoginPage loginPage = new LoginPage();
-        String warningMessage = loginPage.getWarningMessage();
-        assertEquals(warningMessage, "You must sign on before attempting to check out. Please sign on and try checking out again.");
+        loginPage
+                .assertVisibilityOfWarningMessageAfterProceedChceckoutAsNotLoggedUser("You "+
+                "must sign on before attempting to check out. Please sign on and try checking out again.");
+
     }
 }
