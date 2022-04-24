@@ -2,15 +2,11 @@ package JavaStartSeleniumRozdzial_9.page.objects;
 
 import JavaStartSeleniumRozdzial_9.driver.manager.DriverManager;
 import JavaStartSeleniumRozdzial_9.waits.WaitForElement;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class FishListPage {
-
-    Logger logger = LogManager.getRootLogger();
+public class FishListPage extends BasePage{
 
     @FindBy(css = "a[href$=\"=FI-SW-01\"]")
     private WebElement angelfishIdButton;
@@ -32,25 +28,25 @@ public class FishListPage {
     public AngelfishListPage clickOnAngelfishIdButton() {
         WaitForElement.waitUntilElementIsVisible(angelfishIdButton);
         angelfishIdButton.click();
-        logger.info("Clicked AngelfishID button");
+        log().info("Clicked AngelfishID button");
         return new AngelfishListPage();
     }
 
     public void clickOnTigerSharkIdButton() {
         WaitForElement.waitUntilElementIsClickable(tigerSharkIdButton);
         tigerSharkIdButton.click();
-        logger.info("Clicked on TigerSharkID button");
+        log().info("Clicked on TigerSharkID button");
     }
 
     public void clickOnKoiIdButtonIdButton() {
         WaitForElement.waitUntilElementIsClickable(koiIdButton);
         koiIdButton.click();
-        logger.info("Clicked on KoiID button");
+        log().info("Clicked on KoiID button");
     }
 
     public void clickOnGoldfishIdButton() {
         WaitForElement.waitUntilElementIsClickable(goldfishIdButton);
         goldfishIdButton.click();
-        logger.info("Clicked on GoldfishID button");
+        log().info("Clicked on GoldfishID button");
     }
 }
