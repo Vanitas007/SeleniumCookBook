@@ -4,52 +4,56 @@
   "children" : [ {
     "name" : "VanitasPC",
     "children" : [ {
-      "name" : "2256@VanitasPC.TestNG-tests-2(22)",
+      "name" : "5956@VanitasPC.TestNG-tests-3(22)",
       "children" : [ {
-        "name" : "asUserLoginUsingValidLoginAndPassword",
-        "uid" : "116429994b56ccf",
-        "parentUid" : "0472481c3c0c379f7fa1976e024aec73",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650536866380,
-          "stop" : 1650536867407,
-          "duration" : 1027
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "CHROME" ]
-      }, {
         "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-        "uid" : "8064d6bfdd2b78d2",
-        "parentUid" : "0472481c3c0c379f7fa1976e024aec73",
+        "uid" : "219e40dceaf00834",
+        "parentUid" : "b57de53f4d62e74dca1d7b00e508daff",
         "status" : "passed",
         "time" : {
-          "start" : 1650536868344,
-          "stop" : 1650536869080,
-          "duration" : 736
+          "start" : 1650806190521,
+          "stop" : 1650806191774,
+          "duration" : 1253
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "0472481c3c0c379f7fa1976e024aec73"
+      "uid" : "b57de53f4d62e74dca1d7b00e508daff"
     }, {
-      "name" : "2256@VanitasPC.TestNG-tests-1(21)",
+      "name" : "5956@VanitasPC.TestNG-tests-1(20)",
       "children" : [ {
         "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-        "uid" : "5abbf23c6e0043a4",
-        "parentUid" : "cb76def782887e73bf67126ec66e0e7f",
-        "status" : "passed",
+        "uid" : "8a559441452737a1",
+        "parentUid" : "b70bf5f56b689d5b01884ef56b296e25",
+        "status" : "failed",
         "time" : {
-          "start" : 1650536866380,
-          "stop" : 1650536867287,
-          "duration" : 907
+          "start" : 1650806190521,
+          "stop" : 1650806191602,
+          "duration" : 1081
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "cb76def782887e73bf67126ec66e0e7f"
+      "uid" : "b70bf5f56b689d5b01884ef56b296e25"
+    }, {
+      "name" : "5956@VanitasPC.TestNG-tests-2(21)",
+      "children" : [ {
+        "name" : "asUserLoginUsingValidLoginAndPassword",
+        "uid" : "a016c9999191e419",
+        "parentUid" : "3f235b8ccd6774731035a711b04aab9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650806190521,
+          "stop" : 1650806191329,
+          "duration" : 808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "3f235b8ccd6774731035a711b04aab9c"
     } ],
     "uid" : "559a3ed1aa44eef87a9cc3704056d108"
   } ]

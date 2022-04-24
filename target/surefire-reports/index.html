@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Pet_Store_Tests" class="navigator-link">
-              <span class="suite-name border-passed">All Pet Store Tests</span>
+              <span class="suite-name border-failed">All Pet Store Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-All_Pet_Store_Tests" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Pet_Store_Tests" class="hide-methods failed suite-All_Pet_Store_Tests"> (hide)</a> <!-- hide-methods failed suite-All_Pet_Store_Tests -->
+                      <a href="#" panel-name="suite-All_Pet_Store_Tests" class="show-methods failed suite-All_Pet_Store_Tests"> (show)</a> <!-- show-methods failed suite-All_Pet_Store_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Pet_Store_Tests">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Pet_Store_Tests" title="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests" class="method navigator-link" hash-for-method="asUserTryToLogInWithIncorrectLoginAndPassword">asUserTryToLogInWithIncorrectLoginAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Pet_Store_Tests -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,11 +126,6 @@
                         <a href="#" panel-name="suite-All_Pet_Store_Tests" title="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests" class="method navigator-link" hash-for-method="asUserLoginUsingValidLoginAndPassword">asUserLoginUsingValidLoginAndPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Pet_Store_Tests" title="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests" class="method navigator-link" hash-for-method="asUserTryToLogInWithIncorrectLoginAndPassword">asUserTryToLogInWithIncorrectLoginAndPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-All_Pet_Store_Tests -->
                   </li>
                 </ul>
@@ -129,9 +138,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Pet_Store_Tests" class="panel All_Pet_Store_Tests">
-          <div class="suite-All_Pet_Store_Tests-class-passed">
+          <div class="suite-All_Pet_Store_Tests-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">JavaStartSeleniumRozdzial_9.tests.FailedLoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -140,6 +149,31 @@
                   <a name="asUserTryToLogInWithIncorrectLoginAndPassword">
                   </a> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
                   <span class="method-name">asUserTryToLogInWithIncorrectLoginAndPassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: Element text was &lt;Invalid username or password. Signon failed.&gt; expecting to be &lt;Invalid username or password. Signon failed.XXX&gt;!
+	at JavaStartSeleniumRozdzial_9.page.objects.LoginPage.assertThatWarningIsDisplayed(LoginPage.java:63)
+	at JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword(FailedLoginTests.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Pet_Store_Tests-class-failed -->
+          <div class="suite-All_Pet_Store_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="asNotLoggedInUserIShallNotProceedToCheckout">
+                  </a> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
+                  <span class="method-name">asNotLoggedInUserIShallNotProceedToCheckout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,21 +193,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Pet_Store_Tests-class-passed -->
-          <div class="suite-All_Pet_Store_Tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="asNotLoggedInUserIShallNotProceedToCheckout">
-                  </a> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
-                  <span class="method-name">asNotLoggedInUserIShallNotProceedToCheckout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Pet_Store_Tests-class-passed -->
         </div> <!-- panel All_Pet_Store_Tests -->
         <div panel-name="test-xml-All_Pet_Store_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -184,6 +203,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;All Pet Store Tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Negative Login Tests&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
     &lt;classes&gt;
@@ -194,9 +216,14 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests&quot;/&gt;
-      &lt;class name=&quot;JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Positive Login Tests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Shopping Cart Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Shopping Cart Tests --&gt;
 &lt;/suite&gt; &lt;!-- All Pet Store Tests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,7 +238,10 @@
                 <span class="test-name">Negative Login Tests (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Positive Login Tests (2 classes)</span>
+                <span class="test-name">Positive Login Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Shopping Cart Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,22 +269,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'asUserLoginUsingValidLoginAndPassword')
-data.setCell(0, 2, 'JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests')
-data.setCell(0, 3, 1047);
+data.setCell(0, 1, 'asNotLoggedInUserIShallNotProceedToCheckout')
+data.setCell(0, 2, 'JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest')
+data.setCell(0, 3, 1273);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'asUserTryToLogInWithIncorrectLoginAndPassword')
 data.setCell(1, 2, 'JavaStartSeleniumRozdzial_9.tests.FailedLoginTests')
-data.setCell(1, 3, 925);
+data.setCell(1, 3, 882);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'asNotLoggedInUserIShallNotProceedToCheckout')
-data.setCell(2, 2, 'JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest')
-data.setCell(2, 3, 738);
+data.setCell(2, 1, 'asUserLoginUsingValidLoginAndPassword')
+data.setCell(2, 2, 'JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests')
+data.setCell(2, 3, 824);
 window.suiteTableData['All_Pet_Store_Tests']= { tableData: data, tableDiv: 'times-div-All_Pet_Store_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-All_Pet_Store_Tests">
               </div> <!-- times-div-All_Pet_Store_Tests -->
             </div> <!-- times-div -->
@@ -294,64 +324,75 @@ return data;
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.FailedLoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest(CHROME)</span>
-                <span class="method-start">377 ms</span>
+                <span class="method-start">59 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest(CHROME)</span>
-                <span class="method-start">543 ms</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(CHROME)</span>
+                <span class="method-start">59 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.FailedLoginTests</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">asUserTryToLogInWithIncorrectLoginAndPassword</span>
-                <span class="method-start">2560 ms</span>
+                <span class="method-start">2622 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">asUserLoginUsingValidLoginAndPassword</span>
-                <span class="method-start">2560 ms</span>
+                <span class="method-start">2622 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.FailedLoginTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">3492 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">asNotLoggedInUserIShallNotProceedToCheckout</span>
+                <span class="method-start">2622 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">3610 ms</span>
+                <span class="method-start">3455 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.FailedLoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">3728 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">3753 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeTest(CHROME)</span>
-                <span class="method-start">3754 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">asNotLoggedInUserIShallNotProceedToCheckout</span>
-                <span class="method-start">4542 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">5281 ms</span>
+                <span class="method-start">3896 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

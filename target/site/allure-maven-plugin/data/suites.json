@@ -4,56 +4,39 @@
   "children" : [ {
     "name" : "All Pet Store Tests",
     "children" : [ {
-      "name" : "Positive Login Tests",
+      "name" : "Shopping Cart Tests",
       "children" : [ {
-        "name" : "JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests",
-        "children" : [ {
-          "name" : "asUserLoginUsingValidLoginAndPassword",
-          "uid" : "116429994b56ccf",
-          "parentUid" : "83154ee78b847ca0b915bd1cf0f65824",
-          "status" : "passed",
-          "time" : {
-            "start" : 1650536866380,
-            "stop" : 1650536867407,
-            "duration" : 1027
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "CHROME" ]
-        } ],
-        "uid" : "83154ee78b847ca0b915bd1cf0f65824"
-      }, {
         "name" : "JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest",
         "children" : [ {
           "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-          "uid" : "8064d6bfdd2b78d2",
-          "parentUid" : "8a423c11a86c3eda139c912a477a7ce1",
+          "uid" : "219e40dceaf00834",
+          "parentUid" : "a4cf6b1245872d202f013c3f2a88818b",
           "status" : "passed",
           "time" : {
-            "start" : 1650536868344,
-            "stop" : 1650536869080,
-            "duration" : 736
+            "start" : 1650806190521,
+            "stop" : 1650806191774,
+            "duration" : 1253
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "CHROME" ]
         } ],
-        "uid" : "8a423c11a86c3eda139c912a477a7ce1"
+        "uid" : "a4cf6b1245872d202f013c3f2a88818b"
       } ],
-      "uid" : "3f7b28050a2eddd01a0448d1e9e1b201"
+      "uid" : "325e96787f565170bc1fa277edac68d3"
     }, {
       "name" : "Negative Login Tests",
       "children" : [ {
         "name" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests",
         "children" : [ {
           "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-          "uid" : "5abbf23c6e0043a4",
+          "uid" : "8a559441452737a1",
           "parentUid" : "56f920be8fb4f1ce400e3334c0081edf",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1650536866380,
-            "stop" : 1650536867287,
-            "duration" : 907
+            "start" : 1650806190521,
+            "stop" : 1650806191602,
+            "duration" : 1081
           },
           "flaky" : false,
           "newFailed" : false,
@@ -62,6 +45,27 @@
         "uid" : "56f920be8fb4f1ce400e3334c0081edf"
       } ],
       "uid" : "c55ec735e4aeb2c7b6180756da6692f6"
+    }, {
+      "name" : "Positive Login Tests",
+      "children" : [ {
+        "name" : "JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests",
+        "children" : [ {
+          "name" : "asUserLoginUsingValidLoginAndPassword",
+          "uid" : "a016c9999191e419",
+          "parentUid" : "83154ee78b847ca0b915bd1cf0f65824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650806190521,
+            "stop" : 1650806191329,
+            "duration" : 808
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "83154ee78b847ca0b915bd1cf0f65824"
+      } ],
+      "uid" : "3f7b28050a2eddd01a0448d1e9e1b201"
     } ],
     "uid" : "20dcff51a2ecd4af73f197737658a290"
   } ]
