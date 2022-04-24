@@ -2,40 +2,40 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "asUserLoginUsingValidLoginAndPassword",
-    "uid" : "116429994b56ccf",
+    "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+    "uid" : "219e40dceaf00834",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1650536866380,
-      "stop" : 1650536867407,
-      "duration" : 1027
+      "start" : 1650806190521,
+      "stop" : 1650806191774,
+      "duration" : 1253
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "CHROME" ]
   }, {
     "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-    "uid" : "5abbf23c6e0043a4",
+    "uid" : "8a559441452737a1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1650536866380,
-      "stop" : 1650536867287,
-      "duration" : 907
+      "start" : 1650806190521,
+      "stop" : 1650806191602,
+      "duration" : 1081
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "CHROME" ]
   }, {
-    "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-    "uid" : "8064d6bfdd2b78d2",
+    "name" : "asUserLoginUsingValidLoginAndPassword",
+    "uid" : "a016c9999191e419",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1650536868344,
-      "stop" : 1650536869080,
-      "duration" : 736
+      "start" : 1650806190521,
+      "stop" : 1650806191329,
+      "duration" : 808
     },
     "flaky" : false,
     "newFailed" : false,

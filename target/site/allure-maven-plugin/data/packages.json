@@ -4,33 +4,33 @@
   "children" : [ {
     "name" : "JavaStartSeleniumRozdzial_9.tests",
     "children" : [ {
-      "name" : "PositiveLoginTests",
+      "name" : "ShoppingCartTest",
       "children" : [ {
-        "name" : "asUserLoginUsingValidLoginAndPassword",
-        "uid" : "116429994b56ccf",
-        "parentUid" : "7c081a94cda877799fe7b3cae3741484",
+        "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+        "uid" : "219e40dceaf00834",
+        "parentUid" : "994f974384c5e776d989a911652c5313",
         "status" : "passed",
         "time" : {
-          "start" : 1650536866380,
-          "stop" : 1650536867407,
-          "duration" : 1027
+          "start" : 1650806190521,
+          "stop" : 1650806191774,
+          "duration" : 1253
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "7c081a94cda877799fe7b3cae3741484"
+      "uid" : "994f974384c5e776d989a911652c5313"
     }, {
       "name" : "FailedLoginTests",
       "children" : [ {
         "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-        "uid" : "5abbf23c6e0043a4",
+        "uid" : "8a559441452737a1",
         "parentUid" : "0e73229dbd598900786e97c8646b668c",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1650536866380,
-          "stop" : 1650536867287,
-          "duration" : 907
+          "start" : 1650806190521,
+          "stop" : 1650806191602,
+          "duration" : 1081
         },
         "flaky" : false,
         "newFailed" : false,
@@ -38,22 +38,22 @@
       } ],
       "uid" : "0e73229dbd598900786e97c8646b668c"
     }, {
-      "name" : "ShoppingCartTest",
+      "name" : "PositiveLoginTests",
       "children" : [ {
-        "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-        "uid" : "8064d6bfdd2b78d2",
-        "parentUid" : "994f974384c5e776d989a911652c5313",
+        "name" : "asUserLoginUsingValidLoginAndPassword",
+        "uid" : "a016c9999191e419",
+        "parentUid" : "7c081a94cda877799fe7b3cae3741484",
         "status" : "passed",
         "time" : {
-          "start" : 1650536868344,
-          "stop" : 1650536869080,
-          "duration" : 736
+          "start" : 1650806190521,
+          "stop" : 1650806191329,
+          "duration" : 808
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "CHROME" ]
       } ],
-      "uid" : "994f974384c5e776d989a911652c5313"
+      "uid" : "7c081a94cda877799fe7b3cae3741484"
     } ],
     "uid" : "JavaStartSeleniumRozdzial_9.tests"
   } ]

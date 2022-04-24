@@ -1,0 +1,11 @@
+configuration.properties - ustawienie isRemote + link do grida
+
+lokalizacja HUBa i NODa
+java -jar selenium-server-4.1.3.jar hub
+java -Dwebdriver.chrome.driver=D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\main\resources\chromedriver.exe  -jar selenium-server-4.1.3.jar node --config D:\Programy\SeleniumGridNode\NodeConfiguration.toml
+
+
+lokalizacja pliku pom.xml
+mvn clean test - uruchomienie testów
+mvn allure:report  -generowanie raportu
+index.html - raport

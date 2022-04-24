@@ -1,0 +1,321 @@
+{
+  "uid" : "8a559441452737a1",
+  "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+  "fullName" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword",
+  "historyId" : "7c26bc8f174fd4f552bb4e4429b1b50",
+  "time" : {
+    "start" : 1650806190521,
+    "stop" : 1650806191602,
+    "duration" : 1081
+  },
+  "description" : "The goal of this test is to log in using not proper username and password and check if warning message Invalid username or password is displayed",
+  "descriptionHtml" : "<p>The goal of this test is to log in using not proper username and password and check if warning message Invalid username or password is displayed</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!",
+  "statusTrace" : "java.lang.AssertionError: Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!\r\n\tat JavaStartSeleniumRozdzial_9.page.objects.LoginPage.assertThatWarningIsDisplayed(LoginPage.java:63)\r\n\tat JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword(FailedLoginTests.java:27)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\r\n\tat org.testng.TestRunner.run(TestRunner.java:603)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:32)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)\r\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat java.base/java.lang.Thread.run(Thread.java:831)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1650806187941,
+      "stop" : 1650806190453,
+      "duration" : 2512
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Setting up browser to: CHROME and navigating to Home Page",
+      "time" : {
+        "start" : 1650806187943,
+        "stop" : 1650806190453,
+        "duration" : 2510
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Maximizing browser window",
+        "time" : {
+          "start" : 1650806190118,
+          "stop" : 1650806190290,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Navigating to URL: http://przyklady.javastart.pl/jpetstore/",
+        "time" : {
+          "start" : 1650806190290,
+          "stop" : 1650806190453,
+          "duration" : 163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pageUrl",
+          "value" : "http://przyklady.javastart.pl/jpetstore/"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browserType",
+        "value" : "CHROME"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1650806187890,
+      "stop" : 1650806187925,
+      "duration" : 35
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Loading configuration from configuration.properties",
+      "time" : {
+        "start" : 1650806187907,
+        "stop" : 1650806187924,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "The goal of this test is to log in using not proper username and password and check if warning message Invalid username or password is displayed",
+    "status" : "failed",
+    "statusMessage" : "Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!",
+    "statusTrace" : "java.lang.AssertionError: Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!\r\n\tat JavaStartSeleniumRozdzial_9.page.objects.LoginPage.assertThatWarningIsDisplayed(LoginPage.java:63)\r\n\tat JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword(FailedLoginTests.java:27)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\r\n\tat org.testng.TestRunner.run(TestRunner.java:603)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:32)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)\r\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat java.base/java.lang.Thread.run(Thread.java:831)\r\n",
+    "steps" : [ {
+      "name" : "Navigating to URL: http://przyklady.javastart.pl/jpetstore/actions/Account.action?signonForm=",
+      "time" : {
+        "start" : 1650806190523,
+        "stop" : 1650806190666,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pageUrl",
+        "value" : "http://przyklady.javastart.pl/jpetstore/actions/Account.action?signonForm="
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Type into User Name Field NotExistingLogin",
+      "time" : {
+        "start" : 1650806190679,
+        "stop" : 1650806190842,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "NotExistingLogin"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Type into Password Field NotProperPassword",
+      "time" : {
+        "start" : 1650806190842,
+        "stop" : 1650806190994,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "NotProperPassword"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Login Button",
+      "time" : {
+        "start" : 1650806190994,
+        "stop" : 1650806191138,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Assert that warning message Invalid username or password. Signon failed.XXX is displayed",
+      "time" : {
+        "start" : 1650806191139,
+        "stop" : 1650806191383,
+        "duration" : 244
+      },
+      "status" : "failed",
+      "statusMessage" : "Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!",
+      "statusTrace" : "java.lang.AssertionError: Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!\r\n\tat JavaStartSeleniumRozdzial_9.page.objects.LoginPage.assertThatWarningIsDisplayed(LoginPage.java:63)\r\n\tat JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword(FailedLoginTests.java:27)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\r\n\tat org.testng.TestRunner.run(TestRunner.java:603)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:32)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)\r\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat java.base/java.lang.Thread.run(Thread.java:831)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "warningMessage",
+        "value" : "Invalid username or password. Signon failed.XXX"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "8eb9bc3430d12423",
+      "name" : "Page screenshot test failure",
+      "source" : "8eb9bc3430d12423.png",
+      "type" : "image/png",
+      "size" : 41367
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1650806191607,
+      "stop" : 1650806191756,
+      "duration" : 149
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Disposing browser",
+      "time" : {
+        "start" : 1650806191607,
+        "stop" : 1650806191756,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "asUserTryToLogInWithIncorrectLoginAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Pet Store Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Negative Login Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"
+  }, {
+    "name" : "host",
+    "value" : "VanitasPC"
+  }, {
+    "name" : "thread",
+    "value" : "5956@VanitasPC.TestNG-tests-1(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "CHROME"
+  } ],
+  "links" : [ {
+    "name" : "ID-1",
+    "url" : "https://example-tms-system.org/tms/ID-1",
+    "type" : "tms"
+  }, {
+    "name" : "DEFECT-1",
+    "url" : "https://example-issue-system.org/issue/DEFECT-1",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8a559441452737a1.json",
+  "parameterValues" : [ "CHROME" ]
+}

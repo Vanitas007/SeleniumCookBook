@@ -1,31 +1,31 @@
 [ {
-  "uid" : "116429994b56ccf",
-  "name" : "asUserLoginUsingValidLoginAndPassword",
-  "time" : {
-    "start" : 1650536866380,
-    "stop" : 1650536867407,
-    "duration" : 1027
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "8064d6bfdd2b78d2",
-  "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-  "time" : {
-    "start" : 1650536868344,
-    "stop" : 1650536869080,
-    "duration" : 736
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "5abbf23c6e0043a4",
+  "uid" : "8a559441452737a1",
   "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
   "time" : {
-    "start" : 1650536866380,
-    "stop" : 1650536867287,
-    "duration" : 907
+    "start" : 1650806190521,
+    "stop" : 1650806191602,
+    "duration" : 1081
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "219e40dceaf00834",
+  "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
+  "time" : {
+    "start" : 1650806190521,
+    "stop" : 1650806191774,
+    "duration" : 1253
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "blocker"
+}, {
+  "uid" : "a016c9999191e419",
+  "name" : "asUserLoginUsingValidLoginAndPassword",
+  "time" : {
+    "start" : 1650806190521,
+    "stop" : 1650806191329,
+    "duration" : 808
+  },
+  "status" : "passed",
+  "severity" : "blocker"
 } ]
