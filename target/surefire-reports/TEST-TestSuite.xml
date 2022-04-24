@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.311" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.383" tests="5" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Zajruncyn\AppData\Local\Temp\surefire3594293199105218174\surefirebooter2424482288969012807.jar C:\Users\Zajruncyn\AppData\Local\Temp\surefire3594293199105218174 2022-04-24T15-16-25_777-jvmRun1 surefire16826319432535835226tmp surefire_05604220217613448502tmp"/>
+    <property name="sun.java.command" value="C:\Users\Zajruncyn\AppData\Local\Temp\surefire8123983856577895104\surefirebooter13883942480594615001.jar C:\Users\Zajruncyn\AppData\Local\Temp\surefire8123983856577895104 2022-04-24T17-43-21_500-jvmRun1 surefire1441751020970915399tmp surefire_015206953745889103208tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Testowanie\ProjektyGIT\SeleniumCookbook\target\test-classes;D:\Testowanie\ProjektyGIT\SeleniumCookbook\target\classes;C:\Users\Zajruncyn\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Zajruncyn\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Zajruncyn\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\Zajruncyn\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Zajruncyn\.m2\repository\org\aspectj\aspectjweaver\1.9.9.1\aspectjweaver-1.9.9.1.jar;C:\Users\Zajruncyn\.m2\repository\io\qameta\allure\allure-testng\2.17.3\allure-testng-2.17.3.jar;C:\Users\Zajruncyn\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\Zajruncyn\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;C:\Users\Zajruncyn\.m2\repository\io\qameta\allure\allure-test-filter\2.17.3\allure-test-filter-2.17.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Zajruncyn\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Zajruncyn\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Zajruncyn\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Zajruncyn\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Zajruncyn\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Zajruncyn\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Zajruncyn\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Zajruncyn\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\Zajruncyn\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\Zajruncyn\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Zajruncyn\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\Zajruncyn\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Zajruncyn\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Zajruncyn\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Zajruncyn\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Zajruncyn\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Zajruncyn\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\Zajruncyn\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Zajruncyn\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Zajruncyn\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Zajruncyn\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Zajruncyn\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\Zajruncyn\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\Zajruncyn\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;"/>
     <property name="allure.results.directory" value="D:\Testowanie\ProjektyGIT\SeleniumCookbook/target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Zajruncyn\AppData\Local\Temp\surefire3594293199105218174\surefirebooter2424482288969012807.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Zajruncyn\AppData\Local\Temp\surefire8123983856577895104\surefirebooter13883942480594615001.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -58,113 +58,162 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="asUserLoginUsingValidLoginAndPassword" classname="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests" time="0.838">
-    <system-out><![CDATA[[INFO ] 2022-04-24 15:16:27.918 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Trying to load properties with file name: configuration.properties
-[INFO ] 2022-04-24 15:16:27.918 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Trying to load properties with file name: configuration.properties
-[INFO ] 2022-04-24 15:16:27.918 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Trying to load properties with file name: configuration.properties
-[INFO ] 2022-04-24 15:16:27.922 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Successfully loaded properties for file: configuration.properties
-[INFO ] 2022-04-24 15:16:27.922 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Successfully loaded properties for file: configuration.properties
-[INFO ] 2022-04-24 15:16:27.922 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Successfully loaded properties for file: configuration.properties
-[INFO ] 2022-04-24 15:16:30.522 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asNotLoggedInUserIShallNotProceedToCheckout
-[INFO ] 2022-04-24 15:16:30.522 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asUserLoginUsingValidLoginAndPassword
-[INFO ] 2022-04-24 15:16:30.522 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asUserTryToLogInWithIncorrectLoginAndPassword
-[INFO ] 2022-04-24 15:16:30.552 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content a
-[INFO ] 2022-04-24 15:16:30.582 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content a
-[INFO ] 2022-04-24 15:16:30.627 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content a
-[INFO ] 2022-04-24 15:16:30.663 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content a
-[INFO ] 2022-04-24 15:16:30.679 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.679 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.691 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content a
-[INFO ] 2022-04-24 15:16:30.717 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.717 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content a
-[INFO ] 2022-04-24 15:16:30.718 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
-[INFO ] 2022-04-24 15:16:30.718 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.768 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.768 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.795 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.795 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
-[INFO ] 2022-04-24 15:16:30.795 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [j2ee]
-[INFO ] 2022-04-24 15:16:30.795 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotExistingLogin]
-[INFO ] 2022-04-24 15:16:30.839 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [j2ee]
-[INFO ] 2022-04-24 15:16:30.841 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into User Name Field j2ee
-[INFO ] 2022-04-24 15:16:30.841 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotExistingLogin]
-[INFO ] 2022-04-24 15:16:30.841 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.841 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into User Name Field NotExistingLogin
-[INFO ] 2022-04-24 15:16:30.842 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.875 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.875 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.875 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to clear WebElement
-[INFO ] 2022-04-24 15:16:30.875 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to clear WebElement
-[INFO ] 2022-04-24 15:16:30.909 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
-[INFO ] 2022-04-24 15:16:30.909 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.LandingPage - Clicked on Enter Store link
-[INFO ] 2022-04-24 15:16:30.913 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="Id=FISH"]
-[INFO ] 2022-04-24 15:16:30.919 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Cleared WebElement [[RemoteWebDriver: chrome on WINDOWS (f5b3135dbcdebe2044fd840a5dc476dc)] -> name: password]
-[INFO ] 2022-04-24 15:16:30.919 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Cleared WebElement [[RemoteWebDriver: chrome on WINDOWS (f249460447bd9817f100214099de76c3)] -> name: password]
-[INFO ] 2022-04-24 15:16:30.920 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.920 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.942 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.942 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
-[INFO ] 2022-04-24 15:16:30.942 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotProperPassword]
-[INFO ] 2022-04-24 15:16:30.942 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [j2ee]
-[INFO ] 2022-04-24 15:16:30.942 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="Id=FISH"]
-[INFO ] 2022-04-24 15:16:30.964 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="Id=FISH"]
-[INFO ] 2022-04-24 15:16:30.987 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [j2ee]
-[INFO ] 2022-04-24 15:16:30.987 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into Password Field j2ee
-[INFO ] 2022-04-24 15:16:30.988 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: signon
-[INFO ] 2022-04-24 15:16:30.992 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="Id=FISH"]
-[INFO ] 2022-04-24 15:16:30.993 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotProperPassword]
-[INFO ] 2022-04-24 15:16:30.994 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into Password Field NotProperPassword
-[INFO ] 2022-04-24 15:16:30.994 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: signon
-[INFO ] 2022-04-24 15:16:31.009 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="Id=FISH"]
-[INFO ] 2022-04-24 15:16:31.019 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: signon
-[INFO ] 2022-04-24 15:16:31.019 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
-[INFO ] 2022-04-24 15:16:31.021 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: signon
-[INFO ] 2022-04-24 15:16:31.021 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
-[INFO ] 2022-04-24 15:16:31.032 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="Id=FISH"]
-[INFO ] 2022-04-24 15:16:31.032 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
-[INFO ] 2022-04-24 15:16:31.112 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
-[INFO ] 2022-04-24 15:16:31.112 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.AnimalsCategoryPage - Clicked on Fish button
-[INFO ] 2022-04-24 15:16:31.116 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
-[INFO ] 2022-04-24 15:16:31.138 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
-[INFO ] 2022-04-24 15:16:31.138 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Clicked on Login Button
-[INFO ] 2022-04-24 15:16:31.139 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Checking if warning message Invalid username or password. Signon failed.XXX is displayed
-[INFO ] 2022-04-24 15:16:31.139 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.149 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
-[INFO ] 2022-04-24 15:16:31.179 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.182 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
-[INFO ] 2022-04-24 15:16:31.211 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
-[INFO ] 2022-04-24 15:16:31.211 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
-[INFO ] 2022-04-24 15:16:31.219 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
-[INFO ] 2022-04-24 15:16:31.220 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Clicked on Login Button
-[INFO ] 2022-04-24 15:16:31.220 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.FooterPage - Checking if dog banner is displayed
-[INFO ] 2022-04-24 15:16:31.221 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Banner img[src*='dog']
-[INFO ] 2022-04-24 15:16:31.253 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Banner img[src*='dog']
-[INFO ] 2022-04-24 15:16:31.277 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
-[INFO ] 2022-04-24 15:16:31.277 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.281 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
-[INFO ] 2022-04-24 15:16:31.282 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Banner img[src*='dog']
-[INFO ] 2022-04-24 15:16:31.302 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.305 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Banner img[src*='dog']
-[INFO ] 2022-04-24 15:16:31.315 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
-[INFO ] 2022-04-24 15:16:31.315 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.FishListPage - Clicked AngelfishID button
-[INFO ] 2022-04-24 15:16:31.318 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
-[INFO ] 2022-04-24 15:16:31.325 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
-[INFO ] 2022-04-24 15:16:31.325 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if WebElement has text: Invalid username or password. Signon failed.XXX
-[INFO ] 2022-04-24 15:16:31.325 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
-[INFO ] 2022-04-24 15:16:31.325 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.328 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asUserLoginUsingValidLoginAndPassword passed successfully
+  <testcase name="asUserLoginUsingValidLoginAndPassword" classname="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests" time="0.858">
+    <system-out><![CDATA[[INFO ] 2022-04-24 17:43:23.708 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Trying to load properties with file name: configuration.properties
+[INFO ] 2022-04-24 17:43:23.708 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Trying to load properties with file name: configuration.properties
+[INFO ] 2022-04-24 17:43:23.708 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Trying to load properties with file name: configuration.properties
+[INFO ] 2022-04-24 17:43:23.713 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Successfully loaded properties for file: configuration.properties
+[INFO ] 2022-04-24 17:43:23.713 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Successfully loaded properties for file: configuration.properties
+[INFO ] 2022-04-24 17:43:23.713 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.configuration.PropertiesLoader - Successfully loaded properties for file: configuration.properties
+[INFO ] 2022-04-24 17:43:26.506 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asUserLoginUsingValidLoginAndPassword
+[INFO ] 2022-04-24 17:43:26.506 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asUserTryToLogInWithIncorrectLoginAndPassword
+[INFO ] 2022-04-24 17:43:26.506 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asNotLoggedInUserIShallNotProceedToCheckout
+[INFO ] 2022-04-24 17:43:26.535 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content a
+[INFO ] 2022-04-24 17:43:26.571 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content a
+[INFO ] 2022-04-24 17:43:26.618 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content a
+[INFO ] 2022-04-24 17:43:26.673 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.673 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.676 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content a
+[INFO ] 2022-04-24 17:43:26.700 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content a
+[INFO ] 2022-04-24 17:43:26.712 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.712 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.731 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content a
+[INFO ] 2022-04-24 17:43:26.731 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:26.770 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.771 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.803 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.803 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:26.803 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotExistingLogin]
+[INFO ] 2022-04-24 17:43:26.803 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [j2ee]
+[INFO ] 2022-04-24 17:43:26.851 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [j2ee]
+[INFO ] 2022-04-24 17:43:26.853 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into User Name Field j2ee
+[INFO ] 2022-04-24 17:43:26.854 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.856 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotExistingLogin]
+[INFO ] 2022-04-24 17:43:26.856 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into User Name Field NotExistingLogin
+[INFO ] 2022-04-24 17:43:26.856 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.886 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.887 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to clear WebElement
+[INFO ] 2022-04-24 17:43:26.887 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.887 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to clear WebElement
+[INFO ] 2022-04-24 17:43:26.932 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:26.932 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Cleared WebElement [[RemoteWebDriver: chrome on WINDOWS (c53296e39293fdc1bdc3c03339bb7e9d)] -> name: password]
+[INFO ] 2022-04-24 17:43:26.932 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Cleared WebElement [[RemoteWebDriver: chrome on WINDOWS (19486c7cf29823e6c86439ecc4fb0d68)] -> name: password]
+[INFO ] 2022-04-24 17:43:26.933 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.LandingPage - Clicked on Enter Store link
+[INFO ] 2022-04-24 17:43:26.933 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.933 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.938 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="Id=FISH"]
+[INFO ] 2022-04-24 17:43:26.960 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.960 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:26.960 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotProperPassword]
+[INFO ] 2022-04-24 17:43:26.960 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [j2ee]
+[INFO ] 2022-04-24 17:43:26.966 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="Id=FISH"]
+[INFO ] 2022-04-24 17:43:26.991 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="Id=FISH"]
+[INFO ] 2022-04-24 17:43:27.007 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [j2ee]
+[INFO ] 2022-04-24 17:43:27.007 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into Password Field j2ee
+[INFO ] 2022-04-24 17:43:27.008 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:27.015 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotProperPassword]
+[INFO ] 2022-04-24 17:43:27.016 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into Password Field NotProperPassword
+[INFO ] 2022-04-24 17:43:27.017 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:27.028 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="Id=FISH"]
+[INFO ] 2022-04-24 17:43:27.038 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:27.039 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:27.043 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="Id=FISH"]
+[INFO ] 2022-04-24 17:43:27.044 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:27.045 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:27.069 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="Id=FISH"]
+[INFO ] 2022-04-24 17:43:27.069 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:27.159 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:27.159 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Clicked on Login Button
+[INFO ] 2022-04-24 17:43:27.161 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Checking if warning message Invalid username or password. Signon failed.XXX is displayed
+[INFO ] 2022-04-24 17:43:27.161 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.169 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:27.169 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.AnimalsCategoryPage - Clicked on Fish button
+[INFO ] 2022-04-24 17:43:27.174 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
+[INFO ] 2022-04-24 17:43:27.192 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.199 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
+[INFO ] 2022-04-24 17:43:27.219 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
+[INFO ] 2022-04-24 17:43:27.228 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:27.228 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Clicked on Login Button
+[INFO ] 2022-04-24 17:43:27.229 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.page.objects.FooterPage - Checking if dog banner is displayed
+[INFO ] 2022-04-24 17:43:27.229 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2022-04-24 17:43:27.239 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="=FI-SW-01"]
+[INFO ] 2022-04-24 17:43:27.239 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:27.255 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2022-04-24 17:43:27.274 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
+[INFO ] 2022-04-24 17:43:27.274 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.285 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
+[INFO ] 2022-04-24 17:43:27.286 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2022-04-24 17:43:27.294 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.304 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2022-04-24 17:43:27.313 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
+[INFO ] 2022-04-24 17:43:27.314 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if WebElement has text: Invalid username or password. Signon failed.XXX
+[INFO ] 2022-04-24 17:43:27.314 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.325 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
+[INFO ] 2022-04-24 17:43:27.328 [TestNG-tests-2] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asUserLoginUsingValidLoginAndPassword passed successfully
 ]]></system-out>
-    <system-err><![CDATA[kwi 24, 2022 3:16:28 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+    <system-err><![CDATA[kwi 24, 2022 5:43:23 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
-kwi 24, 2022 3:16:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+kwi 24, 2022 5:43:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-kwi 24, 2022 3:16:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+kwi 24, 2022 5:43:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-kwi 24, 2022 3:16:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+kwi 24, 2022 5:43:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="asUserTryToLogInWithIncorrectLoginAndPassword" classname="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests" time="1.103">
+  <testcase name="asUserTryToLogInWithIncorrectLoginAndPassword" classname="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests" time="0">
+    <skipped message="Element text was &lt;Invalid username or password. Signon failed.&gt; expecting to be &lt;Invalid username or password. Signon failed.XXX&gt;!"/>
+    <system-out><![CDATA[[INFO ] 2022-04-24 17:43:27.335 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:27.335 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.FishListPage - Clicked AngelfishID button
+[INFO ] 2022-04-24 17:43:27.339 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
+[INFO ] 2022-04-24 17:43:27.342 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.378 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
+[INFO ] 2022-04-24 17:43:27.389 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.RetryAnalyzer - Retrying test method asUserTryToLogInWithIncorrectLoginAndPassword!
+[INFO ] 2022-04-24 17:43:27.390 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asUserTryToLogInWithIncorrectLoginAndPassword skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="asUserTryToLogInWithIncorrectLoginAndPassword" classname="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests" time="0">
+    <skipped message="Element text was &lt;Invalid username or password. Signon failed.&gt; expecting to be &lt;Invalid username or password. Signon failed.XXX&gt;!"/>
+    <system-out><![CDATA[[INFO ] 2022-04-24 17:43:28.429 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asUserTryToLogInWithIncorrectLoginAndPassword
+[INFO ] 2022-04-24 17:43:28.531 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:28.551 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:28.577 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:28.592 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:28.593 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotExistingLogin]
+[INFO ] 2022-04-24 17:43:28.626 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotExistingLogin]
+[INFO ] 2022-04-24 17:43:28.627 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into User Name Field NotExistingLogin
+[INFO ] 2022-04-24 17:43:28.627 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:28.646 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:28.646 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to clear WebElement
+[INFO ] 2022-04-24 17:43:28.680 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Cleared WebElement [[RemoteWebDriver: chrome on WINDOWS (e5ec28c479bddae8d8892eba0185a4ac)] -> name: password]
+[INFO ] 2022-04-24 17:43:28.680 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:28.694 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:28.695 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotProperPassword]
+[INFO ] 2022-04-24 17:43:28.730 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotProperPassword]
+[INFO ] 2022-04-24 17:43:28.730 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into Password Field NotProperPassword
+[INFO ] 2022-04-24 17:43:28.730 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:28.748 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:28.749 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:28.833 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:28.833 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Clicked on Login Button
+[INFO ] 2022-04-24 17:43:28.833 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Checking if warning message Invalid username or password. Signon failed.XXX is displayed
+[INFO ] 2022-04-24 17:43:28.833 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:28.853 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:28.875 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
+[INFO ] 2022-04-24 17:43:28.875 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:28.889 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:28.902 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
+[INFO ] 2022-04-24 17:43:28.902 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if WebElement has text: Invalid username or password. Signon failed.XXX
+[INFO ] 2022-04-24 17:43:28.902 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:28.916 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:28.931 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.RetryAnalyzer - Retrying test method asUserTryToLogInWithIncorrectLoginAndPassword!
+[INFO ] 2022-04-24 17:43:28.931 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asUserTryToLogInWithIncorrectLoginAndPassword skipped!
+]]></system-out>
+    <system-err><![CDATA[kwi 24, 2022 5:43:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="asUserTryToLogInWithIncorrectLoginAndPassword" classname="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests" time="0.75">
     <failure message="Element text was &lt;Invalid username or password. Signon failed.&gt; expecting to be &lt;Invalid username or password. Signon failed.XXX&gt;!" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Element text was <Invalid username or password. Signon failed.> expecting to be <Invalid username or password. Signon failed.XXX>!
 	at JavaStartSeleniumRozdzial_9.page.objects.LoginPage.assertThatWarningIsDisplayed(LoginPage.java:63)
 	at JavaStartSeleniumRozdzial_9.tests.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword(FailedLoginTests.java:27)
@@ -174,8 +223,8 @@ INFO: Detected dialect: W3C
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
@@ -192,36 +241,70 @@ INFO: Detected dialect: W3C
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:831)
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2022-04-24 15:16:31.347 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
-[INFO ] 2022-04-24 15:16:31.347 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.376 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
-[INFO ] 2022-04-24 15:16:31.383 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asUserTryToLogInWithIncorrectLoginAndPassword failed!
-[INFO ] 2022-04-24 15:16:31.403 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
-[INFO ] 2022-04-24 15:16:31.404 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
-[INFO ] 2022-04-24 15:16:31.516 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
-[INFO ] 2022-04-24 15:16:31.516 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.AngelfishListPage - Clicked on add to card large Angelfish button
-[INFO ] 2022-04-24 15:16:31.519 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="newOrderForm="]
-[INFO ] 2022-04-24 15:16:31.539 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="newOrderForm="]
-[INFO ] 2022-04-24 15:16:31.556 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="newOrderForm="]
-[INFO ] 2022-04-24 15:16:31.573 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="newOrderForm="]
-[INFO ] 2022-04-24 15:16:31.574 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+    <system-out><![CDATA[[INFO ] 2022-04-24 17:43:29.845 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Starting test: asUserTryToLogInWithIncorrectLoginAndPassword
+[INFO ] 2022-04-24 17:43:29.952 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:29.973 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:29.998 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:30.015 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: username
+[INFO ] 2022-04-24 17:43:30.015 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotExistingLogin]
+[INFO ] 2022-04-24 17:43:30.052 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotExistingLogin]
+[INFO ] 2022-04-24 17:43:30.052 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into User Name Field NotExistingLogin
+[INFO ] 2022-04-24 17:43:30.053 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:30.075 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:30.075 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to clear WebElement
+[INFO ] 2022-04-24 17:43:30.112 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Cleared WebElement [[RemoteWebDriver: chrome on WINDOWS (5c19a487c40eb05b1f2f72b1ac86e4e1)] -> name: password]
+[INFO ] 2022-04-24 17:43:30.112 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:30.127 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: password
+[INFO ] 2022-04-24 17:43:30.127 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to type text [NotProperPassword]
+[INFO ] 2022-04-24 17:43:30.170 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Typed text [NotProperPassword]
+[INFO ] 2022-04-24 17:43:30.170 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Typed into Password Field NotProperPassword
+[INFO ] 2022-04-24 17:43:30.170 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:30.190 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.name: signon
+[INFO ] 2022-04-24 17:43:30.190 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:30.277 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:30.277 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Clicked on Login Button
+[INFO ] 2022-04-24 17:43:30.277 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Checking if warning message Invalid username or password. Signon failed.XXX is displayed
+[INFO ] 2022-04-24 17:43:30.278 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:30.297 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:30.319 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
+[INFO ] 2022-04-24 17:43:30.319 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:30.336 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:30.349 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
+[INFO ] 2022-04-24 17:43:30.349 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if WebElement has text: Invalid username or password. Signon failed.XXX
+[INFO ] 2022-04-24 17:43:30.349 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:30.373 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:30.389 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.RetryAnalyzer - Test method asUserTryToLogInWithIncorrectLoginAndPassword will be not retried!
+[INFO ] 2022-04-24 17:43:30.389 [TestNG-tests-1] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asUserTryToLogInWithIncorrectLoginAndPassword failed!
 ]]></system-out>
+    <system-err><![CDATA[kwi 24, 2022 5:43:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
   </testcase>
-  <testcase name="asNotLoggedInUserIShallNotProceedToCheckout" classname="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest" time="1.274">
-    <system-out><![CDATA[[INFO ] 2022-04-24 15:16:31.659 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
-[INFO ] 2022-04-24 15:16:31.660 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.ShoppingCartPage - Clicked on Proceed to Checkout Button
-[INFO ] 2022-04-24 15:16:31.661 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Checking if warning message You must sign on before attempting to check out. Please sign on and try checking out again. is displayed
-[INFO ] 2022-04-24 15:16:31.661 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.686 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.709 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
-[INFO ] 2022-04-24 15:16:31.709 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.726 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.742 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
-[INFO ] 2022-04-24 15:16:31.742 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if WebElement has text: You must sign on before attempting to check out. Please sign on and try checking out again.
-[INFO ] 2022-04-24 15:16:31.742 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.758 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
-[INFO ] 2022-04-24 15:16:31.774 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement had expected text!
-[INFO ] 2022-04-24 15:16:31.774 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asNotLoggedInUserIShallNotProceedToCheckout passed successfully
+  <testcase name="asNotLoggedInUserIShallNotProceedToCheckout" classname="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest" time="1.423">
+    <system-out><![CDATA[[INFO ] 2022-04-24 17:43:27.418 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
+[INFO ] 2022-04-24 17:43:27.451 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a.Button[href$="EST-1"]
+[INFO ] 2022-04-24 17:43:27.452 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:27.550 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:27.550 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.AngelfishListPage - Clicked on add to card large Angelfish button
+[INFO ] 2022-04-24 17:43:27.554 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="newOrderForm="]
+[INFO ] 2022-04-24 17:43:27.584 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="newOrderForm="]
+[INFO ] 2022-04-24 17:43:27.605 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: a[href$="newOrderForm="]
+[INFO ] 2022-04-24 17:43:27.627 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: a[href$="newOrderForm="]
+[INFO ] 2022-04-24 17:43:27.627 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to click WebElement
+[INFO ] 2022-04-24 17:43:27.713 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Clicked WebElement
+[INFO ] 2022-04-24 17:43:27.713 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.ShoppingCartPage - Clicked on Proceed to Checkout Button
+[INFO ] 2022-04-24 17:43:27.714 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.page.objects.LoginPage - Checking if warning message You must sign on before attempting to check out. Please sign on and try checking out again. is displayed
+[INFO ] 2022-04-24 17:43:27.715 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.742 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.772 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if element is displayed
+[INFO ] 2022-04-24 17:43:27.772 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.801 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.838 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement was displayed!
+[INFO ] 2022-04-24 17:43:27.838 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - Checking if WebElement has text: You must sign on before attempting to check out. Please sign on and try checking out again.
+[INFO ] 2022-04-24 17:43:27.838 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Trying to find WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.866 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.driver.listeners.DriverEventListener - Found WebElement with locator By.cssSelector: #Content ul[class='messages'] li
+[INFO ] 2022-04-24 17:43:27.890 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.generic.assertions.AssertWebElement - WebElement had expected text!
+[INFO ] 2022-04-24 17:43:27.891 [TestNG-tests-3] JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener - Test asNotLoggedInUserIShallNotProceedToCheckout passed successfully
 ]]></system-out>
   </testcase>
 </testsuite>

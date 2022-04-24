@@ -1,4 +1,5 @@
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\AngelfishListPage.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\utils\testng\listeners\AnnotationTransformer.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\ThirdXPathExerciseTest.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\SecondAutomatedTest.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\CheckoutPage.java
@@ -27,6 +28,7 @@ D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzi
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\driver\BrowserType.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\utils\testng\listeners\TestListener.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\page\objects\FishListPage.java
+D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSeleniumRozdzial_9\utils\testng\listeners\RetryAnalyzer.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\DropDownTests_7_2.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\FileUploadTests_7_3.java
 D:\Testowanie\ProjektyGIT\SeleniumCookbook\src\test\java\JavaStartSelenium\HoverTests_7_4.java

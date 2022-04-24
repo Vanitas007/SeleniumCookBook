@@ -9,13 +9,13 @@
         "name" : "JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest",
         "children" : [ {
           "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
-          "uid" : "219e40dceaf00834",
+          "uid" : "fdf3add6a0b791e3",
           "parentUid" : "a4cf6b1245872d202f013c3f2a88818b",
           "status" : "passed",
           "time" : {
-            "start" : 1650806190521,
-            "stop" : 1650806191774,
-            "duration" : 1253
+            "start" : 1650815006505,
+            "stop" : 1650815007891,
+            "duration" : 1386
           },
           "flaky" : false,
           "newFailed" : false,
@@ -25,39 +25,18 @@
       } ],
       "uid" : "325e96787f565170bc1fa277edac68d3"
     }, {
-      "name" : "Negative Login Tests",
-      "children" : [ {
-        "name" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests",
-        "children" : [ {
-          "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
-          "uid" : "8a559441452737a1",
-          "parentUid" : "56f920be8fb4f1ce400e3334c0081edf",
-          "status" : "failed",
-          "time" : {
-            "start" : 1650806190521,
-            "stop" : 1650806191602,
-            "duration" : 1081
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "CHROME" ]
-        } ],
-        "uid" : "56f920be8fb4f1ce400e3334c0081edf"
-      } ],
-      "uid" : "c55ec735e4aeb2c7b6180756da6692f6"
-    }, {
       "name" : "Positive Login Tests",
       "children" : [ {
         "name" : "JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests",
         "children" : [ {
           "name" : "asUserLoginUsingValidLoginAndPassword",
-          "uid" : "a016c9999191e419",
+          "uid" : "310f444976482c93",
           "parentUid" : "83154ee78b847ca0b915bd1cf0f65824",
           "status" : "passed",
           "time" : {
-            "start" : 1650806190521,
-            "stop" : 1650806191329,
-            "duration" : 808
+            "start" : 1650815006505,
+            "stop" : 1650815007329,
+            "duration" : 824
           },
           "flaky" : false,
           "newFailed" : false,
@@ -66,6 +45,27 @@
         "uid" : "83154ee78b847ca0b915bd1cf0f65824"
       } ],
       "uid" : "3f7b28050a2eddd01a0448d1e9e1b201"
+    }, {
+      "name" : "Negative Login Tests",
+      "children" : [ {
+        "name" : "JavaStartSeleniumRozdzial_9.tests.FailedLoginTests",
+        "children" : [ {
+          "name" : "asUserTryToLogInWithIncorrectLoginAndPassword",
+          "uid" : "a26f200a6ffecd44",
+          "parentUid" : "56f920be8fb4f1ce400e3334c0081edf",
+          "status" : "failed",
+          "time" : {
+            "start" : 1650815009845,
+            "stop" : 1650815010589,
+            "duration" : 744
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "CHROME" ]
+        } ],
+        "uid" : "56f920be8fb4f1ce400e3334c0081edf"
+      } ],
+      "uid" : "c55ec735e4aeb2c7b6180756da6692f6"
     } ],
     "uid" : "20dcff51a2ecd4af73f197737658a290"
   } ]

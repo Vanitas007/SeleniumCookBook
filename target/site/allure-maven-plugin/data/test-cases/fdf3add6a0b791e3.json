@@ -1,12 +1,12 @@
 {
-  "uid" : "219e40dceaf00834",
+  "uid" : "fdf3add6a0b791e3",
   "name" : "asNotLoggedInUserIShallNotProceedToCheckout",
   "fullName" : "JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest.asNotLoggedInUserIShallNotProceedToCheckout",
   "historyId" : "c02a52da04d61552fb3fcc1b9e86e699",
   "time" : {
-    "start" : 1650806190521,
-    "stop" : 1650806191774,
-    "duration" : 1253
+    "start" : 1650815006505,
+    "stop" : 1650815007891,
+    "duration" : 1386
   },
   "description" : "The goal of this test is to buy small fish without loging in and check if warning message You must sign on before attempting to check out. Please sign on and try checking out again is displayed",
   "descriptionHtml" : "<p>The goal of this test is to buy small fish without loging in and check if warning message You must sign on before attempting to check out. Please sign on and try checking out again is displayed</p>\n",
@@ -16,26 +16,26 @@
   "beforeStages" : [ {
     "name" : "beforeTest",
     "time" : {
-      "start" : 1650806187941,
-      "stop" : 1650806190425,
-      "duration" : 2484
+      "start" : 1650815003733,
+      "stop" : 1650815006419,
+      "duration" : 2686
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Setting up browser to: CHROME and navigating to Home Page",
       "time" : {
-        "start" : 1650806187943,
-        "stop" : 1650806190425,
-        "duration" : 2482
+        "start" : 1650815003736,
+        "stop" : 1650815006419,
+        "duration" : 2683
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Maximizing browser window",
         "time" : {
-          "start" : 1650806190099,
-          "stop" : 1650806190271,
-          "duration" : 172
+          "start" : 1650815006084,
+          "stop" : 1650815006243,
+          "duration" : 159
         },
         "status" : "passed",
         "steps" : [ ],
@@ -43,14 +43,14 @@
         "parameters" : [ ],
         "hasContent" : false,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Navigating to URL: http://przyklady.javastart.pl/jpetstore/",
         "time" : {
-          "start" : 1650806190271,
-          "stop" : 1650806190425,
-          "duration" : 154
+          "start" : 1650815006243,
+          "stop" : 1650815006419,
+          "duration" : 176
         },
         "status" : "passed",
         "steps" : [ ],
@@ -61,8 +61,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
@@ -71,29 +71,29 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 2,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 3,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "beforeClass",
     "time" : {
-      "start" : 1650806187890,
-      "stop" : 1650806187925,
-      "duration" : 35
+      "start" : 1650815003682,
+      "stop" : 1650815003716,
+      "duration" : 34
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Loading configuration from configuration.properties",
       "time" : {
-        "start" : 1650806187907,
-        "stop" : 1650806187924,
+        "start" : 1650815003698,
+        "stop" : 1650815003715,
         "duration" : 17
       },
       "status" : "passed",
@@ -102,15 +102,15 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "The goal of this test is to buy small fish without loging in and check if warning message You must sign on before attempting to check out. Please sign on and try checking out again is displayed",
@@ -118,9 +118,9 @@
     "steps" : [ {
       "name" : "Click on Enter Store link",
       "time" : {
-        "start" : 1650806190546,
-        "stop" : 1650806190910,
-        "duration" : 364
+        "start" : 1650815006529,
+        "stop" : 1650815006933,
+        "duration" : 404
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,14 +128,14 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Assert ",
       "time" : {
-        "start" : 1650806191661,
-        "stop" : 1650806191774,
-        "duration" : 113
+        "start" : 1650815007714,
+        "stop" : 1650815007890,
+        "duration" : 176
       },
       "status" : "passed",
       "steps" : [ ],
@@ -146,31 +146,31 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 2,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "afterTest",
     "time" : {
-      "start" : 1650806191775,
-      "stop" : 1650806191867,
-      "duration" : 92
+      "start" : 1650815007893,
+      "stop" : 1650815008052,
+      "duration" : 159
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Disposing browser",
       "time" : {
-        "start" : 1650806191775,
-        "stop" : 1650806191867,
-        "duration" : 92
+        "start" : 1650815007894,
+        "stop" : 1650815008052,
+        "duration" : 158
       },
       "status" : "passed",
       "steps" : [ ],
@@ -178,15 +178,15 @@
       "parameters" : [ ],
       "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -211,7 +211,7 @@
     "value" : "VanitasPC"
   }, {
     "name" : "thread",
-    "value" : "5956@VanitasPC.TestNG-tests-3(22)"
+    "value" : "21660@VanitasPC.TestNG-tests-3(22)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -242,6 +242,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "219e40dceaf00834.json",
+  "source" : "fdf3add6a0b791e3.json",
   "parameterValues" : [ "CHROME" ]
 }
