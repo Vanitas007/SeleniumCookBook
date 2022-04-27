@@ -3,28 +3,28 @@
 <suite name="All Pet Store Tests" parallel="tests" thread-count="3">
 
     <listeners>
-        <listener class-name="JavaStartSeleniumRozdzial_9.utils.testng.listeners.TestListener"/>
-        <listener class-name="JavaStartSeleniumRozdzial_9.utils.testng.listeners.AnnotationTransformer"/>
+        <listener class-name="Rozdzial_9.utils.testng.listeners.TestListener"/>
+        <listener class-name="Rozdzial_9.utils.testng.listeners.AnnotationTransformer"/>
     </listeners>
 
     <test name="Negative Login Tests">
         <parameter name="browser" value="CHROME"/>
         <classes>
-            <class name="JavaStartSeleniumRozdzial_9.tests.FailedLoginTests"/>
+            <class name="Rozdzial_9.tests.FailedLoginTests"/>
         </classes>
     </test>
 
     <test name="Positive Login Tests">
         <parameter name="browser" value="CHROME"/>
         <classes>
-            <class name="JavaStartSeleniumRozdzial_9.tests.PositiveLoginTests"/>
+            <class name="Rozdzial_9.tests.PositiveLoginTests"/>
         </classes>
     </test>
 
     <test name="Shopping Cart Tests">
         <parameter name="browser" value="CHROME"/>
         <classes>
-            <class name="JavaStartSeleniumRozdzial_9.tests.ShoppingCartTest"/>
+            <class name="Rozdzial_9.tests.ShoppingCartTest"/>
         </classes>
     </test>
 
