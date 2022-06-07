@@ -62,6 +62,10 @@ public class JavaScripAlertsTests_11_1 {
 
         driver.switchTo().alert().sendKeys("Selenium is cool");
         driver.switchTo().alert().accept();
+//        String typedText = "Selenium is cool";
+//        Alert alert = driver.switchTo().alert();
+//        alert.sendKeys(typedText);
+//        alert.accept();
 
         WebElement result = driver.findElement(By.id("result"));
         assertEquals(result.getText(), "You entered: Selenium is cool");
