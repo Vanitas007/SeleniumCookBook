@@ -30,7 +30,6 @@ public class JavaScripAlertsTests_11_1 {
 
     @Test
     public void javaScriptAlertTest() {
-
 //        WebElement jsAlertButton = driver.findElement(By.xpath("//*[@id=\"content\"]/div/ul/li[1]/button"));
         WebElement jsAlertButton = driver.findElement(By.cssSelector("button[onclick='jsAlert()']"));
         jsAlertButton.click();
@@ -40,5 +39,19 @@ public class JavaScripAlertsTests_11_1 {
 
         assertTrue(result.isDisplayed());
         assertEquals(result.getText(), "You successfuly clicked an alert");
+    }
+
+    @Test
+    public void javaScriptAlertConfirmTest() {
+        WebElement jsConfirmButton = driver.findElement(By.cssSelector("button[onclick='jsConfirm()']"));
+        jsConfirmButton.click();
+
+        driver.switchTo().alert().accept();
+        WebElement result = driver.findElement(By.id("result"));
+        assertEquals(result.getText(), "You clicked: Ok");
+
+        jsConfirmButton.click();
+        driver.switchTo().alert().dismiss();
+        assertEquals(result.getText(), "You clicked: Cancel");
     }
 }
